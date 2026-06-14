@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🌸 Meu Caderno de Humor</title>
+<style>
+  :root {
+    --rosa: #f8d7e3;
+    --rosa-med: #f0a8c0;
+    --rosa-dark: #c2607a;
+    --azul: #d6eaf8;
+    --azul-med: #a8cce0;
+    --azul-dark: #4a7fa0;
+    --verde: #d5edd8;
+    --verde-med: #a8d4ac;
+    --verde-dark: #4a8c50;
+    --amarelo: #fef9c3;
+    --amarelo-med: #f7dc6f;
+    --amarelo-dark: #a07a10;
+    --marrom: #f0e6d3;
+    --marrom-med: #c9a87c;
+    --marrom-dark: #7a5c38;
+    --bg: #fdf8f5;
+    --text: #4a3728;
+    --text-light: #7a6558;
+    --border: #e8d5c4;
+    --white: #ffffff;
+    --shadow: 0 2px 12px rgba(180,130,100,0.10);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  header {
+    background: linear-gradient(135deg, var(--rosa) 0%, var(--azul) 50%, var(--verde) 100%);
+    padding: 1.5rem 2rem;
+    text-align: center;
+    border-bottom: 2px solid var(--rosa-med);
+  }
+  header h1 { font-size: 1.7rem; color: var(--marrom-dark); font-weight: 600; }
+  header p { font-size: 0.9rem; color: var(--text-light); margin-top: 4px; }
+
+  nav {
+    display: flex; gap: 0; background: var(--white);
+    border-bottom: 2px solid var(--border);
+    overflow-x: auto;
+  }
+  nav button {
+    flex: 1; min-width: 120px; padding: 0.75rem 1rem;
+    border: none; background: transparent; cursor: pointer;
+    font-size: 0.85rem; color: var(--text-light); font-weight: 500;
+    border-bottom: 3px solid transparent; transition: all 0.2s;
+    white-space: nowrap;
+  }
+  nav button:hover { background: var(--rosa); color: var(--rosa-dark); }
+  nav button.ativo { color: var(--rosa-dark); border-bottom-color: var(--rosa-dark); background: var(--rosa); }
+
+  .tela { display: none; padding: 1.5rem; max-width: 760px; margin: 0 auto; }
+  .tela.ativa { display: block; }
+
+  .card {
+    background: var(--white);
+    border: 1.5px solid var(--border);
+    border-radius: 14px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow);
+  }
+  .card-title {
+    font-size: 1rem; font-weight: 600; color: var(--marrom-dark);
+    margin-bottom: 1rem; display: flex; align-items: center; gap: 8px;
+  }
+  .card-title span { font-size: 1.2rem; }
+
+  label { font-size: 0.85rem; color: var(--text-light); display: block; margin-bottom: 4px; font-weight: 500; }
+
+  input[type="date"], input[type="number"], input[type="text"], select, textarea {
+    width: 100%; padding: 0.5rem 0.75rem;
+    border: 1.5px solid var(--border); border-radius: 8px;
+    background: var(--bg); color: var(--text);
+    font-size: 0.9rem; font-family: inherit;
+    transition: border-color 0.2s;
+  }
+  input:focus, select:focus, textarea:focus {
+    outline: none; border-color: var(--rosa-med);
+    background: var(--white);
+  }
+  textarea { resize: vertical; min-height: 80px; }
+
+  .remedios-grid { display: flex; flex-direction: column; gap: 10px; }
+  .remedio-row {
+    display: flex; align-items: center; gap: 10px;
+    background: var(--amarelo); border-radius: 10px; padding: 10px 14px;
+    border: 1px solid var(--amarelo-med);
+  }
+  .remedio-row input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--rosa-dark); flex-shrink: 0; }
+  .remedio-row .remedio-nome { flex: 1; font-size: 0.9rem; font-weight: 500; color: var(--amarelo-dark); }
+  .remedio-row .gramagem-wrap { display: flex; align-items: center; gap: 6px; }
+  .remedio-row .gramagem-wrap input { width: 70px; }
+  .remedio-row .gramagem-wrap span { font-size: 0.8rem; color: var(--text-light); }
+
+  .escalas-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+  .escala-card {
+    background: var(--azul); border-radius: 12px; padding: 12px 14px;
+    border: 1px solid var(--azul-med); text-align: center;
+  }
+  .escala-card label { color: var(--azul-dark); font-weight: 600; font-size: 0.85rem; }
+  .escala-valor { font-size: 2rem; font-weight: 700; color: var(--azul-dark); margin: 4px 0; }
+  .escala-card input[type="range"] {
+    width: 100%; accent-color: var(--azul-dark);
+    border: none; background: transparent; padding: 0;
+  }
+  .escala-labels { display: flex; justify-content: space-between; font-size: 0.7rem; color: var(--text-light); }
+
+  .humor-card .escala-card { background: var(--rosa); border-color: var(--rosa-med); }
+  .humor-card .escala-card label, .humor-card .escala-card .escala-valor { color: var(--rosa-dark); }
+  .humor-card .escala-card input[type="range"] { accent-color: var(--rosa-dark); }
+
+  .energia-card .escala-card { background: var(--verde); border-color: var(--verde-med); }
+  .energia-card .escala-card label, .energia-card .escala-card .escala-valor { color: var(--verde-dark); }
+  .energia-card .escala-card input[type="range"] { accent-color: var(--verde-dark); }
+
+  .sono-card .escala-card { background: var(--azul); border-color: var(--azul-med); }
+
+  .campo-par { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media (max-width: 500px) { .campo-par { grid-template-columns: 1fr; } }
+
+  .btn {
+    padding: 0.6rem 1.4rem; border-radius: 10px; border: none;
+    font-size: 0.9rem; font-weight: 600; cursor: pointer;
+    transition: all 0.18s; font-family: inherit;
+  }
+  .btn-rosa { background: var(--rosa-med); color: var(--rosa-dark); }
+  .btn-rosa:hover { background: var(--rosa-dark); color: white; }
+  .btn-verde { background: var(--verde-med); color: var(--verde-dark); }
+  .btn-verde:hover { background: var(--verde-dark); color: white; }
+  .btn-azul { background: var(--azul-med); color: var(--azul-dark); }
+  .btn-azul:hover { background: var(--azul-dark); color: white; }
+  .btn-marrom { background: var(--marrom-med); color: var(--marrom-dark); }
+  .btn-marrom:hover { background: var(--marrom-dark); color: white; }
+
+  .botoes-acao { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 1rem; }
+
+  .msg { padding: 10px 14px; border-radius: 10px; font-size: 0.85rem; margin-top: 8px; display: none; }
+  .msg.ok { background: var(--verde); color: var(--verde-dark); border: 1px solid var(--verde-med); }
+  .msg.erro { background: #ffe4e4; color: #c0392b; border: 1px solid #f5a0a0; }
+
+  /* REGISTROS */
+  .registro-item {
+    background: var(--white); border: 1.5px solid var(--border); border-radius: 12px;
+    padding: 1rem 1.25rem; margin-bottom: 10px; box-shadow: var(--shadow);
+  }
+  .reg-header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+  .reg-data { font-weight: 600; color: var(--rosa-dark); font-size: 1rem; }
+  .reg-chips { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+  .chip {
+    padding: 3px 10px; border-radius: 20px; font-size: 0.78rem; font-weight: 600;
+  }
+  .chip-rosa { background: var(--rosa); color: var(--rosa-dark); }
+  .chip-azul { background: var(--azul); color: var(--azul-dark); }
+  .chip-verde { background: var(--verde); color: var(--verde-dark); }
+  .chip-amarelo { background: var(--amarelo); color: var(--amarelo-dark); }
+  .reg-detalhes { margin-top: 10px; font-size: 0.85rem; color: var(--text-light); display: none; }
+  .reg-detalhes.aberto { display: block; }
+  .reg-toggle { font-size: 0.8rem; color: var(--azul-dark); cursor: pointer; text-decoration: underline; background: none; border: none; padding: 0; }
+
+  /* RELATORIO */
+  .media-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; margin: 1rem 0; }
+  .media-card {
+    text-align: center; border-radius: 12px; padding: 12px 8px;
+    border: 1px solid var(--border);
+  }
+  .media-card .mc-label { font-size: 0.75rem; color: var(--text-light); font-weight: 600; text-transform: uppercase; }
+  .media-card .mc-val { font-size: 1.8rem; font-weight: 700; margin: 4px 0; }
+  .media-card.rosa { background: var(--rosa); }
+  .media-card.rosa .mc-val { color: var(--rosa-dark); }
+  .media-card.verde { background: var(--verde); }
+  .media-card.verde .mc-val { color: var(--verde-dark); }
+  .media-card.azul { background: var(--azul); }
+  .media-card.azul .mc-val { color: var(--azul-dark); }
+  .media-card.amarelo { background: var(--amarelo); }
+  .media-card.amarelo .mc-val { color: var(--amarelo-dark); }
+  .media-card.marrom { background: var(--marrom); }
+  .media-card.marrom .mc-val { color: var(--marrom-dark); }
+
+  .sem-dados { text-align: center; padding: 2rem; color: var(--text-light); font-style: italic; }
+
+  .pensamentos-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+  .pensamento-tag {
+    display: flex; align-items: center; gap: 6px;
+    background: var(--marrom); border: 1px solid var(--marrom-med);
+    border-radius: 20px; padding: 5px 12px; cursor: pointer;
+    font-size: 0.82rem; color: var(--marrom-dark);
+    transition: all 0.18s; user-select: none;
+  }
+  .pensamento-tag.sel { background: var(--marrom-med); color: var(--marrom-dark); font-weight: 600; }
+  .pensamento-tag input { display: none; }
+
+  .horas-wrap { display: flex; align-items: center; gap: 10px; }
+  .horas-wrap input[type="number"] { width: 90px; }
+
+  /* IMPRESSÃO */
+  @media print {
+    nav, .botoes-acao, .btn, .tela:not(.ativa) { display: none !important; }
+    header { background: var(--rosa) !important; print-color-adjust: exact; }
+    body { font-size: 12px; }
+    .card { box-shadow: none; border: 1px solid #ccc; }
+    .tela.ativa { display: block !important; padding: 0; }
+  }
+
+  hr.sep { border: none; border-top: 1.5px solid var(--border); margin: 1rem 0; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🌸 Meu Caderno de Humor</h1>
+  <p>Monitoramento para Transtorno Bipolar · Seus dados ficam salvos no navegador</p>
+</header>
+
+<nav>
+  <button class="ativo" onclick="ir('registrar')">✏️ Registrar</button>
+  <button onclick="ir('historico')">📋 Histórico</button>
+  <button onclick="ir('relatorio')">📊 Relatório 7 dias</button>
+</nav>
+
+<!-- TELA: REGISTRAR -->
+<div id="tela-registrar" class="tela ativa">
+
+  <div class="card">
+    <div class="card-title"><span>📅</span> Data do registro</div>
+    <input type="date" id="data" />
+  </div>
+
+  <div class="card">
+    <div class="card-title"><span>💊</span> Remédios tomados hoje</div>
+    <div class="remedios-grid">
+      <div class="remedio-row">
+        <input type="checkbox" id="rem-lamo">
+        <label class="remedio-nome" for="rem-lamo">Lamotrigina</label>
+        <div class="gramagem-wrap">
+          <input type="number" id="g-lamo" placeholder="0" min="0" max="9999" step="0.5">
+          <span>mg</span>
+        </div>
+      </div>
+      <div class="remedio-row">
+        <input type="checkbox" id="rem-venla">
+        <label class="remedio-nome" for="rem-venla">Venlafaxina</label>
+        <div class="gramagem-wrap">
+          <input type="number" id="g-venla" placeholder="0" min="0" max="9999" step="0.5">
+          <span>mg</span>
+        </div>
+      </div>
+      <div class="remedio-row">
+        <input type="checkbox" id="rem-bupro">
+        <label class="remedio-nome" for="rem-bupro">Bupropiona</label>
+        <div class="gramagem-wrap">
+          <input type="number" id="g-bupro" placeholder="0" min="0" max="9999" step="0.5">
+          <span>mg</span>
+        </div>
+      </div>
+      <div class="remedio-row">
+        <input type="checkbox" id="rem-linde">
+        <label class="remedio-nome" for="rem-linde">Lisdexanfetamina</label>
+        <div class="gramagem-wrap">
+          <input type="number" id="g-linde" placeholder="0" min="0" max="9999" step="0.5">
+          <span>mg</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card humor-card">
+    <div class="card-title"><span>😊</span> Humor <small style="color:var(--text-light);font-weight:400;font-size:0.8rem">(0 = muito baixo · 10 = eufórico)</small></div>
+    <div class="escalas-grid">
+      <div class="escala-card">
+        <label>Nota do humor</label>
+        <div class="escala-valor" id="val-humor">5</div>
+        <input type="range" min="0" max="10" value="5" id="humor" oninput="atualizar('humor')">
+        <div class="escala-labels"><span>0</span><span>5</span><span>10</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card energia-card">
+    <div class="card-title"><span>⚡</span> Energia <small style="color:var(--text-light);font-weight:400;font-size:0.8rem">(0 = exausta · 10 = agitada)</small></div>
+    <div class="escalas-grid">
+      <div class="escala-card">
+        <label>Nota de energia</label>
+        <div class="escala-valor" id="val-energia">5</div>
+        <input type="range" min="0" max="10" value="5" id="energia" oninput="atualizar('energia')">
+        <div class="escala-labels"><span>0</span><span>5</span><span>10</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card sono-card">
+    <div class="card-title"><span>🌙</span> Sono</div>
+    <div class="escalas-grid" style="margin-bottom:12px">
+      <div class="escala-card">
+        <label>Qualidade do sono</label>
+        <div class="escala-valor" id="val-sono">5</div>
+        <input type="range" min="0" max="10" value="5" id="sono" oninput="atualizar('sono')">
+        <div class="escala-labels"><span>0</span><span>5</span><span>10</span></div>
+      </div>
+    </div>
+    <label>Quantas horas dormiu?</label>
+    <div class="horas-wrap">
+      <input type="number" id="horas-sono" min="0" max="24" step="0.5" placeholder="Ex: 7.5">
+      <span style="color:var(--text-light);font-size:0.85rem">horas</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title"><span>🎨</span> Atividades de prazer</div>
+    <div class="campo-par">
+      <div>
+        <label>Tempo com pintura (horas)</label>
+        <input type="number" id="h-pintura" min="0" max="24" step="0.5" placeholder="Ex: 1.5">
+      </div>
+      <div>
+        <label>Tempo com jogo de celular (horas)</label>
+        <input type="number" id="h-jogo" min="0" max="24" step="0.5" placeholder="Ex: 0.5">
+      </div>
+    </div>
+    <div style="margin-top:12px">
+      <label>Como você se sentiu <strong>durante</strong> a atividade?</label>
+      <textarea id="sentiu-durante" placeholder="Descreva como estava se sentindo enquanto fazia a atividade..."></textarea>
+    </div>
+    <div style="margin-top:12px">
+      <label>Como você se sentiu <strong>depois</strong> da atividade?</label>
+      <textarea id="sentiu-depois" placeholder="Descreva como se sentiu após terminar a atividade..."></textarea>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title"><span>💭</span> Como você se sentiu hoje?</div>
+    <p style="font-size:0.82rem;color:var(--text-light);margin-bottom:10px">Selecione todos os sentimentos que estiveram presentes na maior parte do dia:</p>
+    <div class="pensamentos-tags" id="pensamentos-tags">
+      <label class="pensamento-tag"><input type="checkbox" value="Feliz"> 😊 Feliz</label>
+      <label class="pensamento-tag"><input type="checkbox" value="Confiante"> 💪 Confiante</label>
+      <label class="pensamento-tag"><input type="checkbox" value="Neutro"> 😐 Neutro</label>
+      <label class="pensamento-tag"><input type="checkbox" value="Ansiedade"> 😰 Ansiedade</label>
+      <label class="pensamento-tag"><input type="checkbox" value="Culpa"> 😔 Culpa</label>
+      <label class="pensamento-tag"><input type="checkbox" value="Vergonha"> 🙈 Vergonha</label>
+      <label class="pensamento-tag"><input type="checkbox" value="Confusão"> 🌀 Confusão</label>
+      <label class="pensamento-tag"><input type="checkbox" value="Euforia"> ✨ Euforia</label>
+      <label class="pensamento-tag"><input type="checkbox" value="Desânimo"> 😞 Desânimo</label>
+      <label class="pensamento-tag"><input type="checkbox" value="Instabilidade"> 🎢 Instabilidade</label>
+      <label class="pensamento-tag"><input type="checkbox" value="Irritabilidade"> 😤 Irritabilidade</label>
+      <label class="pensamento-tag"><input type="checkbox" value="Pensamentos acelerados"> 💨 Pensamentos acelerados</label>
+      <label class="pensamento-tag"><input type="checkbox" value="Pensamentos lentos"> 🐢 Pensamentos lentos</label>
+      <label class="pensamento-tag"><input type="checkbox" value="Dificuldade de concentração"> 🌫️ Dificuldade de concentração</label>
+      <label class="pensamento-tag"><input type="checkbox" value="Pensamentos difíceis (pesados)"> ⚠️ Pensamentos difíceis</label>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title"><span>📝</span> Espaço livre — o que mais importa hoje</div>
+    <textarea id="livre" style="min-height:120px" placeholder="Anote aqui qualquer coisa que achar importante: eventos do dia, reações físicas, situações que afetaram seu humor, sentimentos difíceis de categorizar, mensagens para a psiquiatra..."></textarea>
+  </div>
+
+  <div class="botoes-acao">
+    <button class="btn btn-rosa" onclick="salvar()">💾 Salvar registro</button>
+    <button class="btn btn-azul" onclick="limparForm()">🔄 Limpar formulário</button>
+    <button class="btn btn-marrom" onclick="window.print()">🖨️ Imprimir esta tela</button>
+  </div>
+
+  <div class="msg ok" id="msg-ok">✅ Registro salvo com sucesso! Você pode encontrá-lo no Histórico.</div>
+  <div class="msg erro" id="msg-erro">⚠️ Por favor, selecione uma data antes de salvar.</div>
+
+</div>
+
+<!-- TELA: HISTÓRICO -->
+<div id="tela-historico" class="tela">
+  <div class="card" style="margin-bottom:1rem">
+    <div class="card-title"><span>📋</span> Seus registros</div>
+    <div class="botoes-acao" style="margin-top:0;margin-bottom:0">
+      <button class="btn btn-azul" onclick="renderHistorico()">🔄 Atualizar lista</button>
+      <button class="btn btn-marrom" onclick="window.print()">🖨️ Imprimir histórico</button>
+    </div>
+  </div>
+  <div id="lista-historico"><div class="sem-dados">Nenhum registro encontrado ainda.</div></div>
+</div>
+
+<!-- TELA: RELATÓRIO -->
+<div id="tela-relatorio" class="tela">
+  <div class="card">
+    <div class="card-title"><span>📊</span> Relatório dos últimos 7 dias</div>
+    <p style="font-size:0.85rem;color:var(--text-light)">Média avaliativa para levar à consulta com a psiquiatra.</p>
+    <div class="botoes-acao" style="margin-top:0.75rem;margin-bottom:0">
+      <button class="btn btn-rosa" onclick="renderRelatorio()">🔄 Gerar relatório</button>
+      <button class="btn btn-marrom" onclick="window.print()">🖨️ Imprimir relatório</button>
+    </div>
+  </div>
+  <div id="conteudo-relatorio"></div>
+</div>
+
+<script>
+const CHAVE = 'caderno_humor_v1';
+
+function dados() {
+  try { return JSON.parse(localStorage.getItem(CHAVE)) || []; }
+  catch { return []; }
+}
+
+function salvarDados(arr) {
+  localStorage.setItem(CHAVE, JSON.stringify(arr));
+}
+
+function atualizar(id) {
+  document.getElementById('val-' + id).textContent = document.getElementById(id).value;
+}
+
+function ir(tela) {
+  document.querySelectorAll('.tela').forEach(t => t.classList.remove('ativa'));
+  document.querySelectorAll('nav button').forEach(b => b.classList.remove('ativo'));
+  document.getElementById('tela-' + tela).classList.add('ativa');
+  const btns = document.querySelectorAll('nav button');
+  const idx = ['registrar','historico','relatorio'].indexOf(tela);
+  if (btns[idx]) btns[idx].classList.add('ativo');
+  if (tela === 'historico') renderHistorico();
+  if (tela === 'relatorio') renderRelatorio();
+}
+
+function pensamentosSelecionados() {
+  const sel = [];
+  document.querySelectorAll('#pensamentos-tags input:checked').forEach(cb => sel.push(cb.value));
+  return sel;
+}
+
+function salvar() {
+  const data = document.getElementById('data').value;
+  if (!data) { mostrarMsg('erro'); return; }
+
+  const registro = {
+    data,
+    remedios: {
+      lamotrigina: { tomou: document.getElementById('rem-lamo').checked, mg: document.getElementById('g-lamo').value },
+      venlafaxina: { tomou: document.getElementById('rem-venla').checked, mg: document.getElementById('g-venla').value },
+      bupropiona:  { tomou: document.getElementById('rem-bupro').checked, mg: document.getElementById('g-bupro').value },
+      lisdexanfetamina: { tomou: document.getElementById('rem-linde').checked, mg: document.getElementById('g-linde').value }
+    },
+    humor: parseInt(document.getElementById('humor').value),
+    energia: parseInt(document.getElementById('energia').value),
+    sono: parseInt(document.getElementById('sono').value),
+    horasSono: parseFloat(document.getElementById('horas-sono').value) || 0,
+    hPintura: parseFloat(document.getElementById('h-pintura').value) || 0,
+    hJogo: parseFloat(document.getElementById('h-jogo').value) || 0,
+    sentidoDurante: document.getElementById('sentiu-durante').value,
+    sentidoDepois: document.getElementById('sentiu-depois').value,
+    pensamentos: pensamentosSelecionados(),
+    livre: document.getElementById('livre').value,
+    timestamp: Date.now()
+  };
+
+  const arr = dados().filter(r => r.data !== data);
+  arr.push(registro);
+  arr.sort((a, b) => b.data.localeCompare(a.data));
+  salvarDados(arr);
+  mostrarMsg('ok');
+}
+
+function mostrarMsg(tipo) {
+  ['ok','erro'].forEach(t => {
+    const el = document.getElementById('msg-' + t);
+    el.style.display = 'none';
+  });
+  const el = document.getElementById('msg-' + tipo);
+  el.style.display = 'block';
+  setTimeout(() => el.style.display = 'none', 4000);
+}
+
+function limparForm() {
+  document.getElementById('data').value = '';
+  ['rem-lamo','rem-venla','rem-bupro','rem-linde'].forEach(id => document.getElementById(id).checked = false);
+  ['g-lamo','g-venla','g-bupro','g-linde','horas-sono','h-pintura','h-jogo'].forEach(id => document.getElementById(id).value = '');
+  ['humor','energia','sono'].forEach(id => { document.getElementById(id).value = 5; atualizar(id); });
+  document.getElementById('sentiu-durante').value = '';
+  document.getElementById('sentiu-depois').value = '';
+  document.getElementById('livre').value = '';
+  document.querySelectorAll('#pensamentos-tags input').forEach(cb => { cb.checked = false; cb.parentElement.classList.remove('sel'); });
+}
+
+function nomeDia(dataStr) {
+  const dias = ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado'];
+  const d = new Date(dataStr + 'T12:00:00');
+  return dias[d.getDay()];
+}
+
+function formatarData(dataStr) {
+  const [a, m, d] = dataStr.split('-');
+  return `${d}/${m}/${a}`;
+}
+
+function renderHistorico() {
+  const arr = dados();
+  const cont = document.getElementById('lista-historico');
+  if (!arr.length) { cont.innerHTML = '<div class="sem-dados">Nenhum registro encontrado ainda. Faça seu primeiro registro! 🌸</div>'; return; }
+
+  cont.innerHTML = arr.map((r, i) => `
+    <div class="registro-item">
+      <div class="reg-header">
+        <div>
+          <span class="reg-data">${nomeDia(r.data)}, ${formatarData(r.data)}</span>
+        </div>
+        <div style="display:flex;gap:6px;align-items:center">
+          <button class="reg-toggle" onclick="toggleDetalhes(${i})">Ver detalhes ▼</button>
+          <button class="btn btn-verde" style="padding:3px 10px;font-size:0.78rem" onclick="editarRegistro('${r.data}')">✏️ Editar</button>
+          <button class="btn btn-rosa" style="padding:3px 10px;font-size:0.78rem" onclick="excluir('${r.data}')">🗑️</button>
+        </div>
+      </div>
+      <div class="reg-chips">
+        <span class="chip chip-rosa">😊 Humor: ${r.humor}/10</span>
+        <span class="chip chip-verde">⚡ Energia: ${r.energia}/10</span>
+        <span class="chip chip-azul">🌙 Sono: ${r.sono}/10 · ${r.horasSono}h</span>
+        ${r.pensamentos && r.pensamentos.length ? `<span class="chip chip-amarelo">🧠 ${r.pensamentos.length} padrão(ões)</span>` : ''}
+      </div>
+      <div class="reg-detalhes" id="det-${i}">
+        <hr class="sep">
+        ${remediosHtml(r.remedios)}
+        ${r.hPintura || r.hJogo ? `<p style="margin-top:8px"><strong>🎨 Pintura:</strong> ${r.hPintura}h &nbsp;|&nbsp; <strong>📱 Jogo:</strong> ${r.hJogo}h</p>` : ''}
+        ${r.sentidoDurante ? `<p style="margin-top:8px"><strong>Durante atividade:</strong> ${r.sentidoDurante}</p>` : ''}
+        ${r.sentidoDepois ? `<p style="margin-top:8px"><strong>Depois da atividade:</strong> ${r.sentidoDepois}</p>` : ''}
+        ${r.pensamentos && r.pensamentos.length ? `<p style="margin-top:8px"><strong>🧠 Padrões:</strong> ${r.pensamentos.join(', ')}</p>` : ''}
+        ${r.livre ? `<p style="margin-top:8px"><strong>📝 Notas livres:</strong> ${r.livre}</p>` : ''}
+      </div>
+    </div>
+  `).join('');
+
+  document.querySelectorAll('#pensamentos-tags input').forEach(cb => {
+    cb.parentElement.classList.toggle('sel', cb.checked);
+    cb.addEventListener('change', function() { this.parentElement.classList.toggle('sel', this.checked); });
+  });
+}
+
+function remediosHtml(rems) {
+  const nomes = { lamotrigina:'Lamotrigina', venlafaxina:'Venlafaxina', bupropiona:'Bupropiona', lisdexanfetamina:'Lisdexanfetamina' };
+  const tomados = Object.entries(rems).filter(([,v]) => v.tomou);
+  if (!tomados.length) return '<p><strong>💊 Remédios:</strong> nenhum marcado</p>';
+  return '<p><strong>💊 Remédios:</strong> ' + tomados.map(([k,v]) => `${nomes[k]}${v.mg ? ` ${v.mg}mg` : ''}`).join(', ') + '</p>';
+}
+
+function toggleDetalhes(i) {
+  const el = document.getElementById('det-' + i);
+  el.classList.toggle('aberto');
+}
+
+function editarRegistro(data) {
+  const r = dados().find(reg => reg.data === data);
+  if (!r) return;
+
+  document.getElementById('data').value = r.data;
+
+  const remMap = { lamotrigina: ['rem-lamo','g-lamo'], venlafaxina: ['rem-venla','g-venla'], bupropiona: ['rem-bupro','g-bupro'], lisdexanfetamina: ['rem-linde','g-linde'] };
+  Object.entries(remMap).forEach(([key, [cbId, gId]]) => {
+    const rem = r.remedios && r.remedios[key];
+    document.getElementById(cbId).checked = rem ? rem.tomou : false;
+    document.getElementById(gId).value = rem ? (rem.mg || '') : '';
+  });
+
+  ['humor','energia','sono'].forEach(id => {
+    document.getElementById(id).value = r[id] !== undefined ? r[id] : 5;
+    atualizar(id);
+  });
+
+  document.getElementById('horas-sono').value = r.horasSono || '';
+  document.getElementById('h-pintura').value = r.hPintura || '';
+  document.getElementById('h-jogo').value = r.hJogo || '';
+  document.getElementById('sentiu-durante').value = r.sentidoDurante || '';
+  document.getElementById('sentiu-depois').value = r.sentidoDepois || '';
+  document.getElementById('livre').value = r.livre || '';
+
+  document.querySelectorAll('#pensamentos-tags input').forEach(cb => {
+    cb.checked = (r.pensamentos || []).includes(cb.value);
+    cb.parentElement.classList.toggle('sel', cb.checked);
+  });
+
+  ir('registrar');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  const msg = document.getElementById('msg-ok');
+  msg.textContent = '✏️ Registro carregado para edição! Faça as alterações e clique em Salvar.';
+  msg.style.background = 'var(--azul)';
+  msg.style.color = 'var(--azul-dark)';
+  msg.style.borderColor = 'var(--azul-med)';
+  msg.style.display = 'block';
+  setTimeout(() => {
+    msg.style.display = 'none';
+    msg.textContent = '✅ Registro salvo com sucesso! Você pode encontrá-lo no Histórico.';
+    msg.style.background = '';
+    msg.style.color = '';
+    msg.style.borderColor = '';
+  }, 5000);
+}
+
+function excluir(data) {
+  if (!confirm(`Excluir o registro de ${formatarData(data)}?`)) return;
+  salvarDados(dados().filter(r => r.data !== data));
+  renderHistorico();
+}
+
+function renderRelatorio() {
+  const agora = new Date();
+  const limite = new Date(); limite.setDate(agora.getDate() - 6);
+  const limiteStr = limite.toISOString().split('T')[0];
+  const arr = dados().filter(r => r.data >= limiteStr);
+  const cont = document.getElementById('conteudo-relatorio');
+
+  if (!arr.length) {
+    cont.innerHTML = '<div class="card"><div class="sem-dados">Nenhum registro nos últimos 7 dias ainda. Continue registrando! 🌸</div></div>';
+    return;
+  }
+
+  const mediaHumor   = arr.reduce((s,r) => s + r.humor, 0) / arr.length;
+  const mediaEnergia = arr.reduce((s,r) => s + r.energia, 0) / arr.length;
+  const mediaSono    = arr.reduce((s,r) => s + r.sono, 0) / arr.length;
+  const mediaHoras   = arr.reduce((s,r) => s + (r.horasSono||0), 0) / arr.length;
+  const totalPintura = arr.reduce((s,r) => s + (r.hPintura||0), 0);
+  const totalJogo    = arr.reduce((s,r) => s + (r.hJogo||0), 0);
+
+  const contagemPensamentos = {};
+  arr.forEach(r => (r.pensamentos||[]).forEach(p => contagemPensamentos[p] = (contagemPensamentos[p]||0)+1));
+  const topPensamentos = Object.entries(contagemPensamentos).sort((a,b)=>b[1]-a[1]).slice(0,5);
+
+  const nivel = v => v <= 3 ? '⬇️ Baixo' : v <= 6 ? '➡️ Moderado' : '⬆️ Alto';
+  const dataInicio = formatarData(arr[arr.length-1].data);
+  const dataFim = formatarData(arr[0].data);
+
+  cont.innerHTML = `
+    <div class="card">
+      <div class="card-title"><span>📅</span> Período: ${dataInicio} a ${dataFim} · ${arr.length} dia(s) registrado(s)</div>
+      <div class="media-cards">
+        <div class="media-card rosa">
+          <div class="mc-label">Humor</div>
+          <div class="mc-val">${mediaHumor.toFixed(1)}</div>
+          <div style="font-size:0.75rem;color:var(--rosa-dark)">${nivel(mediaHumor)}</div>
+        </div>
+        <div class="media-card verde">
+          <div class="mc-label">Energia</div>
+          <div class="mc-val">${mediaEnergia.toFixed(1)}</div>
+          <div style="font-size:0.75rem;color:var(--verde-dark)">${nivel(mediaEnergia)}</div>
+        </div>
+        <div class="media-card azul">
+          <div class="mc-label">Qual. sono</div>
+          <div class="mc-val">${mediaSono.toFixed(1)}</div>
+          <div style="font-size:0.75rem;color:var(--azul-dark)">${nivel(mediaSono)}</div>
+        </div>
+        <div class="media-card amarelo">
+          <div class="mc-label">Horas sono</div>
+          <div class="mc-val">${mediaHoras.toFixed(1)}h</div>
+          <div style="font-size:0.75rem;color:var(--amarelo-dark)">média/noite</div>
+        </div>
+        <div class="media-card marrom">
+          <div class="mc-label">Pintura</div>
+          <div class="mc-val">${totalPintura.toFixed(1)}h</div>
+          <div style="font-size:0.75rem;color:var(--marrom-dark)">total semana</div>
+        </div>
+        <div class="media-card marrom">
+          <div class="mc-label">Joguinho</div>
+          <div class="mc-val">${totalJogo.toFixed(1)}h</div>
+          <div style="font-size:0.75rem;color:var(--marrom-dark)">total semana</div>
+        </div>
+      </div>
+    </div>
+
+    ${topPensamentos.length ? `
+    <div class="card">
+      <div class="card-title"><span>🧠</span> Padrões de pensamento mais frequentes</div>
+      ${topPensamentos.map(([p,n]) => `
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid var(--border)">
+          <span style="font-size:0.88rem;color:var(--text)">${p}</span>
+          <span class="chip chip-amarelo">${n} dia(s)</span>
+        </div>
+      `).join('')}
+    </div>` : ''}
+
+    <div class="card">
+      <div class="card-title"><span>📋</span> Detalhamento dia a dia</div>
+      ${arr.map(r => `
+        <div style="padding:10px 0;border-bottom:1px solid var(--border)">
+          <div style="font-weight:600;color:var(--rosa-dark);font-size:0.9rem">${nomeDia(r.data)}, ${formatarData(r.data)}</div>
+          <div class="reg-chips" style="margin-top:6px">
+            <span class="chip chip-rosa">😊 ${r.humor}/10</span>
+            <span class="chip chip-verde">⚡ ${r.energia}/10</span>
+            <span class="chip chip-azul">🌙 ${r.sono}/10 · ${r.horasSono}h</span>
+          </div>
+          ${remediosHtml(r.remedios)}
+          ${r.pensamentos && r.pensamentos.length ? `<p style="font-size:0.82rem;margin-top:4px;color:var(--text-light)">🧠 ${r.pensamentos.join(' · ')}</p>` : ''}
+          ${r.livre ? `<p style="font-size:0.82rem;margin-top:4px;color:var(--text-light)">📝 ${r.livre.substring(0,200)}${r.livre.length > 200 ? '...' : ''}</p>` : ''}
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+// Inicializar
+document.addEventListener('DOMContentLoaded', () => {
+  const hoje = new Date().toISOString().split('T')[0];
+  document.getElementById('data').value = hoje;
+  document.querySelectorAll('#pensamentos-tags input').forEach(cb => {
+    cb.addEventListener('change', function() { this.parentElement.classList.toggle('sel', this.checked); });
+  });
+});
+</script>
+</body>
+</html>
