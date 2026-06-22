@@ -1,1 +1,279 @@
-[]
+[
+  {
+    "data": "2026-06-21",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "100"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 6,
+    "energia": 6,
+    "sono": 8,
+    "horasSono": 6,
+    "hPintura": 0,
+    "hJogo": 2.3,
+    "sentidoDurante": "Prazer, relaxamento",
+    "sentidoDepois": "Incômodo por não conseguir fazer outras coisas",
+    "pensamentos": [
+      "Confusão",
+      "Instabilidade"
+    ],
+    "livre": "Hoje foi um misto de tô bem, mas não tanto! Mas tô bem... É mais ou menos! Queria poder falar com alguém sobre esses sentimentos.",
+    "timestamp": 1750464000000
+  },
+  {
+    "data": "2026-06-20",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "100"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": ""
+      }
+    },
+    "humor": 3,
+    "energia": 5,
+    "sono": 3,
+    "horasSono": 9,
+    "hPintura": 2.3,
+    "hJogo": 1,
+    "sentidoDurante": "Relaxamento",
+    "sentidoDepois": "Arrependimento de ter ficado tanto tempo",
+    "pensamentos": [
+      "Irritabilidade",
+      "Pensamentos difíceis (pesados)"
+    ],
+    "livre": "Embora bastante horas de sono, foi picado com vários momentos acordando, por causa do vizinho que estava dando festa e o som extremamente alto! Meu Deus que terror... Horrível. Acordei com muita dor de cabeça, e mesmo depois de passar estava irritada, angustiada... Vontade de sumir! Melhorei um pouquinho a noite.",
+    "timestamp": 1750377600000
+  },
+  {
+    "data": "2026-06-19",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "100"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 8,
+    "energia": 8,
+    "sono": 5,
+    "horasSono": 5,
+    "hPintura": 3,
+    "hJogo": 2,
+    "sentidoDurante": "Relaxamento... Embora não conseguia curtir o momento pq primeiro era o Gabriel querendo me mostrar coisas do Instagram o tempo todo, depois a Larissa",
+    "sentidoDepois": "Não me senti mal dessa vez, pois a pintura foi um pouco antes do jogo do Brasil e durante. E hoje consegui parar a hora que eu pensei. Falei chega e consegui",
+    "pensamentos": [
+      "Feliz",
+      "Confiante"
+    ],
+    "livre": "Acordei bem, foi um dia tranquilo. Acho que isso é estar normal, pois não cometi nenhum excesso grave, consegui controlar excesso de trabalho, jogo e pintura. Confiando que agora serei uma pessoa normal",
+    "timestamp": 1750291200000
+  },
+  {
+    "data": "2026-06-18",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "50"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 6,
+    "energia": 5,
+    "sono": 10,
+    "horasSono": 9.3,
+    "hPintura": 0,
+    "hJogo": 1.3,
+    "sentidoDurante": "Foi durante as viagens de ônibus e metro.",
+    "sentidoDepois": "Sem problemas",
+    "pensamentos": [
+      "Confiante"
+    ],
+    "livre": "Hoje me senti melhor, produzi sem excessos. Que permaneça assim.",
+    "timestamp": 1750204800000
+  },
+  {
+    "data": "2026-06-17",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "50"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 5,
+    "energia": 5,
+    "sono": 5,
+    "horasSono": 3,
+    "hPintura": 0,
+    "hJogo": 4,
+    "sentidoDurante": "Calma",
+    "sentidoDepois": "Não me senti mal, pois estava na sala de espera do hospital, e foi um passa tempo.",
+    "pensamentos": [
+      "Neutro"
+    ],
+    "livre": "Hoje acordei melhor! E disposta a mudar essa depre. Não consegui 100% mas já melhorei.",
+    "timestamp": 1750118400000
+  },
+  {
+    "data": "2026-06-16",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "50"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 2,
+    "energia": 0,
+    "sono": 4,
+    "horasSono": 8.3,
+    "hPintura": 11,
+    "hJogo": 1,
+    "sentidoDurante": "Livre, paz... Agora no fim da tarde eu já tava querendo parar, mas parece um vício, e eu vou indo...indo",
+    "sentidoDepois": "Sensação de desperdício do tempo!",
+    "pensamentos": [
+      "Desânimo"
+    ],
+    "livre": "O sono não foi direto. Acordei 3:50... Gabriel me acordou, demorei pra voltar a dormir, fiquei tão irritada, que não consegui acordar e quando acordei me senti mal. Não fui trabalhar... Fiquei o dia todo de pijama na cama pintando.",
+    "timestamp": 1750032000000
+  },
+  {
+    "data": "2026-06-15",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "50"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 3,
+    "energia": 2,
+    "sono": 8,
+    "horasSono": 4.4,
+    "hPintura": 0,
+    "hJogo": 3,
+    "sentidoDurante": "Tranquila",
+    "sentidoDepois": "",
+    "pensamentos": [
+      "Desânimo",
+      "Irritabilidade"
+    ],
+    "livre": "Acordei bem!!! Mas logo que cheguei no serviço... Já estava baquiada",
+    "timestamp": 1749945600000
+  },
+  {
+    "data": "2026-06-14",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "50"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 5,
+    "energia": 3,
+    "sono": 5,
+    "horasSono": 6.3,
+    "hPintura": 4,
+    "hJogo": 0,
+    "sentidoDurante": "No início relaxada. Mais agora pro final da noite, incomodada, eu sabia que tinha que parar e não conseguia.",
+    "sentidoDepois": "Culpa por ter ficado tanto tempo só pintando.",
+    "pensamentos": [
+      "Neutro",
+      "Culpa"
+    ],
+    "livre": "De manhã mais neutro. A noite culpa.",
+    "timestamp": 1749859200000
+  }
+]
