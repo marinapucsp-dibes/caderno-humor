@@ -23,15 +23,15 @@
     "energia": 5,
     "sono": 6,
     "horasSono": 6.3,
-    "hPintura": 0,
+    "hPintura": 2.3,
     "hJogo": 2,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
+    "sentidoDurante": "Relaxamento ",
+    "sentidoDepois": "Sensação de ter perdido tempo pra outras coisas ",
     "pensamentos": [
       "Neutro"
     ],
     "livre": "Hoje não to nem uma coisa, nem outra. Não fui trabalhar\nestou com infamação na palbebra, olho doendo. \nEu só queria poder ficar pintando, sozinha, em silencio. ",
-    "timestamp": 1782164312080
+    "timestamp": 1782179793469
   },
   {
     "data": "2026-06-21",
