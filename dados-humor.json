@@ -20,16 +20,18 @@
       }
     },
     "humor": 5,
-    "energia": 5,
+    "energia": 9,
     "sono": 9,
     "horasSono": 5,
     "hPintura": 0,
-    "hJogo": 0,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
-    "pensamentos": [],
-    "livre": "",
-    "timestamp": 1782228830835
+    "hJogo": 1.3,
+    "sentidoDurante": "Normal",
+    "sentidoDepois": "Normal ",
+    "pensamentos": [
+      "Neutro"
+    ],
+    "livre": "Normal ",
+    "timestamp": 1782265739257
   },
   {
     "data": "2026-06-22",
