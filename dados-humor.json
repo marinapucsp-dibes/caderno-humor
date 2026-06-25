@@ -20,16 +20,18 @@
       }
     },
     "humor": 5,
-    "energia": 5,
+    "energia": 7,
     "sono": 7,
     "horasSono": 6.3,
-    "hPintura": 0,
-    "hJogo": 0,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
-    "pensamentos": [],
-    "livre": "",
-    "timestamp": 1782303098146
+    "hPintura": 3,
+    "hJogo": 2,
+    "sentidoDurante": "Ao mesmo tempo que relaxava, tnha algo mais forte que não deixava parar mesmo caindo de sono",
+    "sentidoDepois": "Culpada, pq tô caindo de sono e não parava ",
+    "pensamentos": [
+      "Neutro"
+    ],
+    "livre": "Notei que estou comendo muito doce. Engordei. Mas não identifiquei motivo.\nEsses dias notei que meus sentimentos tem ficado neutro. ",
+    "timestamp": 1782354952222
   },
   {
     "data": "2026-06-23",
