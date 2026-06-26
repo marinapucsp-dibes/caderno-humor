@@ -1,5 +1,39 @@
 [
   {
+    "data": "2026-06-25",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "100"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 5,
+    "energia": 5,
+    "sono": 8,
+    "horasSono": 5.3,
+    "hPintura": 2.3,
+    "hJogo": 1,
+    "sentidoDurante": "Tranquila ",
+    "sentidoDepois": "Um pouco melhor pois consegui parar, quando determinei",
+    "pensamentos": [
+      "Desânimo"
+    ],
+    "livre": "Chateada com a CGB, não é nem o trabalho, é falta de validação no que vc fala, o pouco caso pelas coisas importantes. ",
+    "timestamp": 1782472985487
+  },
+  {
     "data": "2026-06-24",
     "remedios": {
       "lamotrigina": {
