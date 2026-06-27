@@ -3,33 +3,36 @@
     "data": "2026-06-26",
     "remedios": {
       "lamotrigina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "100"
       },
       "venlafaxina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "150"
       },
       "bupropiona": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "150"
       },
       "lisdexanfetamina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "70"
       }
     },
-    "humor": 5,
-    "energia": 10,
+    "humor": 3,
+    "energia": 5,
     "sono": 9,
     "horasSono": 8,
-    "hPintura": 0,
-    "hJogo": 0,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
-    "pensamentos": [],
-    "livre": "",
-    "timestamp": 1782473074713
+    "hPintura": 3,
+    "hJogo": 3,
+    "sentidoDurante": "Sem pensamentos, tranquilidace",
+    "sentidoDepois": "Vontade de ficar mais tempo ",
+    "pensamentos": [
+      "Desânimo",
+      "Pensamentos difíceis (pesados)"
+    ],
+    "livre": "Hoje não consegui trabalhar. Aquele desespero, de não saber se é espiritual ou físico. Não conseguir controlar a tristeza",
+    "timestamp": 1782534220351
   },
   {
     "data": "2026-06-25",
