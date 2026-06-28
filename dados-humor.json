@@ -3,33 +3,33 @@
     "data": "2026-06-28",
     "remedios": {
       "lamotrigina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "100"
       },
       "venlafaxina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "150"
       },
       "bupropiona": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "150"
       },
       "lisdexanfetamina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "70"
       }
     },
-    "humor": 5,
-    "energia": 5,
-    "sono": 4,
-    "horasSono": 7,
+    "humor": 3,
+    "energia": 4,
+    "sono": 5,
+    "horasSono": 0,
     "hPintura": 0,
     "hJogo": 0,
     "sentidoDurante": "",
     "sentidoDepois": "",
     "pensamentos": [],
-    "livre": "Sono não foi reparador, acordei cansada. Sem vontade de levantar ",
-    "timestamp": 1782650934938
+    "livre": "",
+    "timestamp": 1782678474478
   },
   {
     "data": "2026-06-27",
