@@ -3,33 +3,35 @@
     "data": "2026-06-27",
     "remedios": {
       "lamotrigina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "100"
       },
       "venlafaxina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "150"
       },
       "bupropiona": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "150"
       },
       "lisdexanfetamina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "70"
       }
     },
     "humor": 5,
-    "energia": 5,
-    "sono": 9,
+    "energia": 4,
+    "sono": 4,
     "horasSono": 5.3,
-    "hPintura": 0,
-    "hJogo": 0,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
-    "pensamentos": [],
-    "livre": "",
-    "timestamp": 1782562001420
+    "hPintura": 2.3,
+    "hJogo": 2,
+    "sentidoDurante": "Sensação de prazer",
+    "sentidoDepois": "Normal ",
+    "pensamentos": [
+      "Instabilidade"
+    ],
+    "livre": "Dormi mal.Fiz perícias, a tardezinha cochilei, no sempre quando durmo a tarde eu acordo com nhaca, me sentindo mal. ",
+    "timestamp": 1782623176184
   },
   {
     "data": "2026-06-26",
