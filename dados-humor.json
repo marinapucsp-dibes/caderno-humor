@@ -27,9 +27,12 @@
     "hJogo": 0,
     "sentidoDurante": "",
     "sentidoDepois": "",
-    "pensamentos": [],
-    "livre": "",
-    "timestamp": 1782678555604
+    "pensamentos": [
+      "Desânimo",
+      "Pensamentos difíceis (pesados)"
+    ],
+    "livre": "Hoje foi o dia que me senti mais deprimida, tive crise de choro de manhã. ",
+    "timestamp": 1782688376688
   },
   {
     "data": "2026-06-27",
