@@ -27,9 +27,12 @@
     "hJogo": 0,
     "sentidoDurante": "",
     "sentidoDepois": "",
-    "pensamentos": [],
+    "pensamentos": [
+      "Culpa",
+      "Instabilidade"
+    ],
     "livre": "Acordei contra vontade! Cansada... Sensação que não dormi ",
-    "timestamp": 1782812252265
+    "timestamp": 1782859159386
   },
   {
     "data": "2026-06-29",
