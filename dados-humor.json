@@ -4,7 +4,7 @@
     "remedios": {
       "lamotrigina": {
         "tomou": true,
-        "mg": "100"
+        "mg": "75"
       },
       "venlafaxina": {
         "tomou": true,
@@ -19,17 +19,20 @@
         "mg": "70"
       }
     },
-    "humor": 5,
-    "energia": 5,
+    "humor": 4,
+    "energia": 2,
     "sono": 4,
     "horasSono": 4.4,
-    "hPintura": 0,
-    "hJogo": 0,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
-    "pensamentos": [],
-    "livre": "",
-    "timestamp": 1782754680796
+    "hPintura": 2,
+    "hJogo": 3,
+    "sentidoDurante": "Paz ",
+    "sentidoDepois": "Sentimentos múltiplos e ",
+    "pensamentos": [
+      "Desânimo",
+      "Pensamentos difíceis (pesados)"
+    ],
+    "livre": "Hoje foi dia difícil... Sem vontade de trabalhar. Dormi a tarde. Não consegui fazer o laudo.Vontade de sair andando sem rumo.",
+    "timestamp": 1782791065481
   },
   {
     "data": "2026-06-28",
