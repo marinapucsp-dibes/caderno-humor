@@ -23,16 +23,16 @@
     "energia": 5,
     "sono": 4,
     "horasSono": 5.3,
-    "hPintura": 0,
-    "hJogo": 0,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
+    "hPintura": 2,
+    "hJogo": 2,
+    "sentidoDurante": "Como sempre, a parte boa é poder esquecer de tudo. ",
+    "sentidoDepois": "Dessa vez não senti mal por realizar a atividade.",
     "pensamentos": [
       "Culpa",
       "Instabilidade"
     ],
-    "livre": "Acordei contra vontade! Cansada... Sensação que não dormi ",
-    "timestamp": 1782859159386
+    "livre": "Acordei contra vontade! Cansada... Sensação que não dormi. Durante o dia teve momentos de sentir vontade de sumir, em outros eu ficava melhorzinha.",
+    "timestamp": 1782875634360
   },
   {
     "data": "2026-06-29",
