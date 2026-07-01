@@ -1,5 +1,37 @@
 [
   {
+    "data": "2026-07-01",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 5,
+    "energia": 5,
+    "sono": 4,
+    "horasSono": 6.1,
+    "hPintura": 0,
+    "hJogo": 0,
+    "sentidoDurante": "",
+    "sentidoDepois": "",
+    "pensamentos": [],
+    "livre": "Acordei atrasada, aliás dificuldade imensa de levantar. Sensação que tô com uma bola de peso amarrada no corpo.",
+    "timestamp": 1782904811603
+  },
+  {
     "data": "2026-06-30",
     "remedios": {
       "lamotrigina": {
