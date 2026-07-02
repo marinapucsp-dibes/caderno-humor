@@ -3,24 +3,24 @@
     "data": "2026-07-02",
     "remedios": {
       "lamotrigina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "150"
       },
       "venlafaxina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "150"
       },
       "bupropiona": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "150"
       },
       "lisdexanfetamina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "70"
       }
     },
-    "humor": 5,
-    "energia": 5,
+    "humor": 7,
+    "energia": 6,
     "sono": 6,
     "horasSono": 5.3,
     "hPintura": 0,
@@ -29,7 +29,7 @@
     "sentidoDepois": "",
     "pensamentos": [],
     "livre": "",
-    "timestamp": 1782981562573
+    "timestamp": 1783036208317
   },
   {
     "data": "2026-07-01",
