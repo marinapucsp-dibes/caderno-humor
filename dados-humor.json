@@ -24,12 +24,16 @@
     "sono": 4,
     "horasSono": 6.1,
     "hPintura": 0,
-    "hJogo": 0,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
-    "pensamentos": [],
-    "livre": "Acordei atrasada, aliás dificuldade imensa de levantar. Sensação que tô com uma bola de peso amarrada no corpo.",
-    "timestamp": 1782904811603
+    "hJogo": 3,
+    "sentidoDurante": "Tranquila ",
+    "sentidoDepois": "Como joguei na condução, almoço... Fiquei tranquila ",
+    "pensamentos": [
+      "Ansiedade",
+      "Instabilidade",
+      "Pensamentos difíceis (pesados)"
+    ],
+    "livre": "Acordei atrasada, aliás dificuldade imensa de levantar. Sensação que tô com uma bola de peso amarrada no corpo. Durante o dia fiquei melhor. No metro na volta tive uma crise de ansiedade, falta ar coração acelerado. ",
+    "timestamp": 1782960099608
   },
   {
     "data": "2026-06-30",
