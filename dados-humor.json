@@ -23,13 +23,15 @@
     "energia": 6,
     "sono": 6,
     "horasSono": 5.3,
-    "hPintura": 0,
-    "hJogo": 0,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
-    "pensamentos": [],
-    "livre": "",
-    "timestamp": 1783036208317
+    "hPintura": 3.5,
+    "hJogo": 2.3,
+    "sentidoDurante": "Tranquilidade",
+    "sentidoDepois": "Parei de pintar era 1:00 da manhã. Não havia percebido, agora bate o remorso ",
+    "pensamentos": [
+      "Instabilidade"
+    ],
+    "livre": "Hoje eu fiquei entre tô melhor e o será mesmo? Mas acho que tô ficando melhor que alguns dias atrás. \nMas esse vício de joguinho e pintura está me preocupando ",
+    "timestamp": 1783051552149
   },
   {
     "data": "2026-07-01",
