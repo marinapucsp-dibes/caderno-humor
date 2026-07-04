@@ -19,17 +19,19 @@
         "mg": ""
       }
     },
-    "humor": 5,
-    "energia": 5,
+    "humor": 9,
+    "energia": 7,
     "sono": 7,
     "horasSono": 6,
-    "hPintura": 0,
-    "hJogo": 0,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
-    "pensamentos": [],
-    "livre": "",
-    "timestamp": 1783069969571
+    "hPintura": 2,
+    "hJogo": 2,
+    "sentidoDurante": "momento de tranquilidade e distração ",
+    "sentidoDepois": "Hoje não me senti culpada",
+    "pensamentos": [
+      "Confiante"
+    ],
+    "livre": "Hoje acordei bem, bastante confiante. Produzindo mais, tomei bastante água. Mas sai correndo atrasada para o serviço e esqueci de tomar os remédios. Não senti efeito hoje, mas tô até com medo. ",
+    "timestamp": 1783170632722
   },
   {
     "data": "2026-07-02",
