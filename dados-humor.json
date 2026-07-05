@@ -19,7 +19,7 @@
         "mg": "70"
       }
     },
-    "humor": 5,
+    "humor": 7,
     "energia": 5,
     "sono": 5,
     "horasSono": 10,
@@ -27,9 +27,11 @@
     "hJogo": 0,
     "sentidoDurante": "",
     "sentidoDepois": "",
-    "pensamentos": [],
-    "livre": "Tentando acordar desde as 6:00. Muita dor de cabeça, mas uma pontada forte. Horrível. Acho que é efeito da falta de remédio. Tomei agora (10:13) esperar o inio dos efeitos ",
-    "timestamp": 1783170826584
+    "pensamentos": [
+      "Confiante"
+    ],
+    "livre": "Tentando acordar desde as 6:00. Muita dor de cabeça, mas uma pontada forte. Horrível. Acho que é efeito da falta de remédio. Tomei agora (10:13) esperar o inio dos efeitos .Consegui levantar 13:00...pensei que fosse morrer. Depois das 15:00 eu melhorei!",
+    "timestamp": 1783218749867
   },
   {
     "data": "2026-07-03",
