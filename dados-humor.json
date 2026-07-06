@@ -19,17 +19,20 @@
         "mg": "70"
       }
     },
-    "humor": 4,
-    "energia": 2,
-    "sono": 4,
+    "humor": 8,
+    "energia": 9,
+    "sono": 6,
     "horasSono": 4.3,
-    "hPintura": 0,
-    "hJogo": 0,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
-    "pensamentos": [],
-    "livre": "",
-    "timestamp": 1783256227181
+    "hPintura": 3,
+    "hJogo": 2,
+    "sentidoDurante": "Prazer ",
+    "sentidoDepois": "Não tive sensação ruim pq não prejudique o nada e consegui parar ",
+    "pensamentos": [
+      "Feliz",
+      "Confiante"
+    ],
+    "livre": "Acordei bem. Fiz minha primeira sessão com a psicóloga para nos conhecermos. Fiz faxina na cozinha... Trabalhei bastante. Agora noite montei uma rotina com ajuda do Claude IA.",
+    "timestamp": 1783303090400
   },
   {
     "data": "2026-07-04",
