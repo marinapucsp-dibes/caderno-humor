@@ -24,14 +24,15 @@
     "sono": 9,
     "horasSono": 5,
     "hPintura": 0,
-    "hJogo": 0,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
+    "hJogo": 1,
+    "sentidoDurante": "Estava no onibus a caminho do trabalho",
+    "sentidoDepois": "Tranquilo, pois não interferiu em nada. ",
     "pensamentos": [
+      "Feliz",
       "Confiante"
     ],
-    "livre": "",
-    "timestamp": 1783382597282
+    "livre": "Hoje me senti como a muito tempo não sentia. Estava bem. Fiquei concentrada nas minhas ações e repetindo o tempo todo, sobre não exagerar. Consegui controlar a alimentação, não gastei com bobeiras, ou com coisas pra \"marcar o novo recomeço\". Produzi no trabalho sem exagero, parei pra almoçar, tomei agua, fui no banheiro. Segui a minha rotina que criei ontem com ajuda do Claude IA aprox. 80%. ",
+    "timestamp": 1783386295762
   },
   {
     "data": "2026-07-05",
