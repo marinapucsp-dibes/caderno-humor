@@ -19,17 +19,19 @@
         "mg": "70"
       }
     },
-    "humor": 5,
-    "energia": 5,
-    "sono": 8,
+    "humor": 9,
+    "energia": 9,
+    "sono": 9,
     "horasSono": 5,
     "hPintura": 0,
     "hJogo": 0,
     "sentidoDurante": "",
     "sentidoDepois": "",
-    "pensamentos": [],
+    "pensamentos": [
+      "Confiante"
+    ],
     "livre": "",
-    "timestamp": 1783333085103
+    "timestamp": 1783382597282
   },
   {
     "data": "2026-07-05",
