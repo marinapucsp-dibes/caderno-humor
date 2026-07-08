@@ -19,17 +19,20 @@
         "mg": "70"
       }
     },
-    "humor": 5,
-    "energia": 5,
+    "humor": 10,
+    "energia": 9,
     "sono": 9,
     "horasSono": 5.3,
     "hPintura": 0,
-    "hJogo": 0,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
-    "pensamentos": [],
-    "livre": "Consegui controlar o impulso de comprar coisas em exagero. Fui comprar o bolo da festinha do serviço, na hora bateu aquele impulso de comprar 02 um de cada sabor .. mas na hora pensei na técnica do Stop, parar, respirar, pensar e decidir. E vi que não tinha necessidade, cada um ia levar um prato, pq eu iria levar 02. Fiquei muito feliz!",
-    "timestamp": 1783438533829
+    "hJogo": 1,
+    "sentidoDurante": "Durante espera do exame do meu pai. Relaxar",
+    "sentidoDepois": "Normal ",
+    "pensamentos": [
+      "Feliz",
+      "Confiante"
+    ],
+    "livre": "Consegui controlar o impulso de comprar coisas em exagero. Fui comprar o bolo da festinha do serviço, na hora bateu aquele impulso de comprar 02 um de cada sabor .. mas na hora pensei na técnica do Stop, parar, respirar, pensar e decidir. E vi que não tinha necessidade, cada um ia levar um prato, pq eu iria levar 02. Fiquei muito feliz! Dia cansativo mas bom. Tô sentindo que estou conseguindo equilíbrio/estabilidade ",
+    "timestamp": 1783481058159
   },
   {
     "data": "2026-07-06",
