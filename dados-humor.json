@@ -19,17 +19,20 @@
         "mg": "70"
       }
     },
-    "humor": 5,
-    "energia": 5,
+    "humor": 9,
+    "energia": 8,
     "sono": 9,
     "horasSono": 4.4,
     "hPintura": 0,
-    "hJogo": 0,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
-    "pensamentos": [],
-    "livre": "",
-    "timestamp": 1783503767176
+    "hJogo": 1.3,
+    "sentidoDurante": "Estava na condução, então foi distração ",
+    "sentidoDepois": "Apenas na volta fiquei arrependida pois poderia ter voltando lendo, ao invés de jogando.",
+    "pensamentos": [
+      "Feliz",
+      "Dificuldade de concentração"
+    ],
+    "livre": "Embora tenha ficado bem, não consegui me concentrar nas coisas, não sei se é o cansaço. Isso refletiu que acabei comendo mais doce do que os últimos dias, e isso me deixou com uma pouca sensação de culpa, não o suficiente para marcar ali. Mas fiquei",
+    "timestamp": 1783562482727
   },
   {
     "data": "2026-07-07",
