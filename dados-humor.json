@@ -19,17 +19,19 @@
         "mg": "70"
       }
     },
-    "humor": 5,
-    "energia": 5,
+    "humor": 8,
+    "energia": 8,
     "sono": 9,
     "horasSono": 7,
-    "hPintura": 0,
+    "hPintura": 4,
     "hJogo": 0,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
-    "pensamentos": [],
+    "sentidoDurante": "Relaxamento",
+    "sentidoDepois": "Me senti meio culpada, arrependida fiquei muito. Devia ter feito outras coisas, menos tempo",
+    "pensamentos": [
+      "Confusão"
+    ],
     "livre": "",
-    "timestamp": 1783602478532
+    "timestamp": 1783641587446
   },
   {
     "data": "2026-07-08",
