@@ -3,33 +3,35 @@
     "data": "2026-07-10",
     "remedios": {
       "lamotrigina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "200"
       },
       "venlafaxina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "150"
       },
       "bupropiona": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "150"
       },
       "lisdexanfetamina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "70"
       }
     },
-    "humor": 5,
-    "energia": 5,
+    "humor": 8,
+    "energia": 8,
     "sono": 5,
     "horasSono": 5.3,
-    "hPintura": 0,
-    "hJogo": 0,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
-    "pensamentos": [],
-    "livre": "",
-    "timestamp": 1783675783915
+    "hPintura": 3,
+    "hJogo": 2,
+    "sentidoDurante": "Vontade de ficar pintando e jogando o tempo todo ",
+    "sentidoDepois": "Me convencendo que foi o meu momento ",
+    "pensamentos": [
+      "Neutro"
+    ],
+    "livre": "Hoje foi melhor que ontem. Me animei e limpei a casa. A mensagem de reflexão ajudou bastante. ",
+    "timestamp": 1783738483861
   },
   {
     "data": "2026-07-09",
