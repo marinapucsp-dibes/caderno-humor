@@ -3,20 +3,20 @@
     "data": "2026-07-12",
     "remedios": {
       "lamotrigina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "200"
       },
       "venlafaxina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "150"
       },
       "bupropiona": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "150"
       },
       "lisdexanfetamina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "70"
       }
     },
     "humor": 5,
@@ -28,8 +28,8 @@
     "sentidoDurante": "",
     "sentidoDepois": "",
     "pensamentos": [],
-    "livre": "",
-    "timestamp": 1783856570717
+    "livre": "Hoje tá difícil, estava tão bem esses dias atrás, pensei que ficaria assim. Mas de repente tudo mudou. Hoje acordei pior, chorando, tudo confuso, não sei mais se o problema sou eu mesmo, se é espiritual se é bipolaridade, se é remédio... Não sei! Sensação que eu não saio disso pq não quero, mas ao mesmo tempo não sei como. Vontade que tivesse um remédio pra desligar meu cérebro por uma semana e quando voltasse resetasse. Dói mas não sei onde. ",
+    "timestamp": 1783867871835
   },
   {
     "data": "2026-07-11",
