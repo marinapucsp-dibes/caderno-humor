@@ -19,17 +19,20 @@
         "mg": "70"
       }
     },
-    "humor": 5,
-    "energia": 5,
+    "humor": 6,
+    "energia": 6,
     "sono": 6,
     "horasSono": 7,
-    "hPintura": 0,
-    "hJogo": 0,
+    "hPintura": 3,
+    "hJogo": 2,
     "sentidoDurante": "",
     "sentidoDepois": "",
-    "pensamentos": [],
+    "pensamentos": [
+      "Confusão",
+      "Instabilidade"
+    ],
     "livre": "",
-    "timestamp": 1783771468686
+    "timestamp": 1783823082737
   },
   {
     "data": "2026-07-10",
