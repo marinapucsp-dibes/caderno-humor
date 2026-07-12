@@ -19,20 +19,20 @@
         "mg": "70"
       }
     },
-    "humor": 6,
-    "energia": 6,
+    "humor": 5,
+    "energia": 4,
     "sono": 6,
     "horasSono": 7,
     "hPintura": 3,
-    "hJogo": 2,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
+    "hJogo": 3,
+    "sentidoDurante": "Não pensar em nada... Muito bom",
+    "sentidoDepois": "Como se tivesse desperdiçado um dia",
     "pensamentos": [
       "Confusão",
       "Instabilidade"
     ],
-    "livre": "",
-    "timestamp": 1783823082737
+    "livre": "Resumindo hoje: Montanha Russa \nFicar em ksa o dia todo me descontrola.\nSentimento tbm de frustração ",
+    "timestamp": 1783830358431
   },
   {
     "data": "2026-07-10",
