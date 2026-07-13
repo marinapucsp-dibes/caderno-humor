@@ -20,16 +20,19 @@
       }
     },
     "humor": 5,
-    "energia": 5,
+    "energia": 4,
     "sono": 8,
     "horasSono": 7,
-    "hPintura": 0,
-    "hJogo": 0,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
-    "pensamentos": [],
-    "livre": "Hoje tá difícil, estava tão bem esses dias atrás, pensei que ficaria assim. Mas de repente tudo mudou. Hoje acordei pior, chorando, tudo confuso, não sei mais se o problema sou eu mesmo, se é espiritual se é bipolaridade, se é remédio... Não sei! Sensação que eu não saio disso pq não quero, mas ao mesmo tempo não sei como. Vontade que tivesse um remédio pra desligar meu cérebro por uma semana e quando voltasse resetasse. Dói mas não sei onde. ",
-    "timestamp": 1783867871835
+    "hPintura": 2,
+    "hJogo": 3,
+    "sentidoDurante": "Todas atividades foram no período da tarde, foi relaxante",
+    "sentidoDepois": "Nem bem nem mal ",
+    "pensamentos": [
+      "Confusão",
+      "Desânimo"
+    ],
+    "livre": "Hoje tá difícil, estava tão bem esses dias atrás, pensei que ficaria assim. Mas de repente tudo mudou. Hoje acordei pior, chorando, tudo confuso, não sei mais se o problema sou eu mesmo, se é espiritual se é bipolaridade, se é remédio... Não sei! Sensação que eu não saio disso pq não quero, mas ao mesmo tempo não sei como. Vontade que tivesse um remédio pra desligar meu cérebro por uma semana e quando voltasse resetasse. Dói mas não sei onde. \nDepois de deitei e dormi por umas 2/3 horas, fui levantando aos poucos. Decidi ir no shopping com a Larissa, resultado:gasto! Mas pelo menos consegui tirar aquela sensação horrível da minha cabeça.\n",
+    "timestamp": 1783911408121
   },
   {
     "data": "2026-07-11",
