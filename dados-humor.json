@@ -3,33 +3,37 @@
     "data": "2026-07-13",
     "remedios": {
       "lamotrigina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "200"
       },
       "venlafaxina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "150"
       },
       "bupropiona": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "150"
       },
       "lisdexanfetamina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "70"
       }
     },
-    "humor": 5,
-    "energia": 5,
+    "humor": 6,
+    "energia": 8,
     "sono": 2,
     "horasSono": 2.1,
     "hPintura": 0,
-    "hJogo": 0,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
-    "pensamentos": [],
-    "livre": "",
-    "timestamp": 1783926668804
+    "hJogo": 2,
+    "sentidoDurante": "Distração - foi no transporte e no almoço só ",
+    "sentidoDepois": "Fiquei contente pelo controle ",
+    "pensamentos": [
+      "Culpa",
+      "Vergonha",
+      "Instabilidade"
+    ],
+    "livre": "Hoje foi um dia diferente, de manhã estava empolgada pq iria começar na academia, sai mais, até passei um lápis de olho. Mas chegando lá, o total pass que antes de pagar constava a smart fit, não estava mais aparecendo. Tive que ir para CGB, cheguei às 7:00. Comp estou desgostosa com trabalho eu não produzi muito. Na volta comecei com o desânimo, só sei que acabei comendo 2 copos de sorvete com leite condensado e creme de capuccino. Fiquei passando mal. Fui dormir 21;30",
+    "timestamp": 1784013559817
   },
   {
     "data": "2026-07-12",
