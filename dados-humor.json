@@ -1,5 +1,37 @@
 [
   {
+    "data": "2026-07-14",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": false,
+        "mg": ""
+      },
+      "venlafaxina": {
+        "tomou": false,
+        "mg": ""
+      },
+      "bupropiona": {
+        "tomou": false,
+        "mg": ""
+      },
+      "lisdexanfetamina": {
+        "tomou": false,
+        "mg": ""
+      }
+    },
+    "humor": 5,
+    "energia": 5,
+    "sono": 5,
+    "horasSono": 6.3,
+    "hPintura": 0,
+    "hJogo": 0,
+    "sentidoDurante": "",
+    "sentidoDepois": "",
+    "pensamentos": [],
+    "livre": "Tinha tudo pra ter um ótima noite de sono, mas o Gabriel (que estava dormindo desde a hora que chegou ontem umas 17:00) perdeu o sono, e me acordou 3 vezes uma pra perguntar se ouvi o barulho, outra pra falar que me ama e outra por causa do carregador. Fiquei brava.",
+    "timestamp": 1784013768702
+  },
+  {
     "data": "2026-07-13",
     "remedios": {
       "lamotrigina": {
