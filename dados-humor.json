@@ -1,5 +1,37 @@
 [
   {
+    "data": "2026-07-16",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "200"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 5,
+    "energia": 5,
+    "sono": 6,
+    "horasSono": 7,
+    "hPintura": 0,
+    "hJogo": 0,
+    "sentidoDurante": "",
+    "sentidoDepois": "",
+    "pensamentos": [],
+    "livre": "Tenho acordado com muito sono e com mau humor, coisa que nunca acontecia. ",
+    "timestamp": 1784217981355
+  },
+  {
     "data": "2026-07-15",
     "remedios": {
       "lamotrigina": {
