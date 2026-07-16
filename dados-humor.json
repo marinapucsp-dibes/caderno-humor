@@ -19,17 +19,21 @@
         "mg": "150"
       }
     },
-    "humor": 5,
-    "energia": 5,
+    "humor": 6,
+    "energia": 4,
     "sono": 6,
     "horasSono": 6,
     "hPintura": 0,
-    "hJogo": 0,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
-    "pensamentos": [],
-    "livre": "",
-    "timestamp": 1784145981095
+    "hJogo": 2,
+    "sentidoDurante": "Distração ",
+    "sentidoDepois": "Nada demais... Só usei em momentos como transporte, almoço ",
+    "pensamentos": [
+      "Vergonha",
+      "Confusão",
+      "Irritabilidade"
+    ],
+    "livre": "Hoje acordei com muito sono, parece que não descansei. Foi um suplício pra levantar. No serviço acabei descontrolando e briguei com uma entrevistadora que tá na CGB, mas que todos achamos que ela tem algum problema, mas acabei ficando com vergonha de mim por não ter me segurado.Afinal é nítido que tem questões sérias que faz ela viver em outra realidade.\nDurante o dia fiquei entre pq não fico bem, com mas vou ficar. Passando o tempo pensando pq não tenho força pra mudar.",
+    "timestamp": 1784167592011
   },
   {
     "data": "2026-07-14",
