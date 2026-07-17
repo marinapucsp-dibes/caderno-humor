@@ -1,5 +1,37 @@
 [
   {
+    "data": "2026-07-17",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "200"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 5,
+    "energia": 5,
+    "sono": 5,
+    "horasSono": 7.3,
+    "hPintura": 0,
+    "hJogo": 0,
+    "sentidoDurante": "",
+    "sentidoDepois": "",
+    "pensamentos": [],
+    "livre": "Acordei atrasada, dormi no ônibus o caminho todo. Estou tão desanimada, vontade de sair andando sem rumo, longe de tudo. Passou algumas coisas ruins na cabeça, mas logo tirei. ",
+    "timestamp": 1784304358354
+  },
+  {
     "data": "2026-07-16",
     "remedios": {
       "lamotrigina": {
