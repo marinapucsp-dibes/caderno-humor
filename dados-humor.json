@@ -19,17 +19,20 @@
         "mg": "70"
       }
     },
-    "humor": 5,
-    "energia": 5,
+    "humor": 7,
+    "energia": 4,
     "sono": 6,
     "horasSono": 7,
     "hPintura": 0,
-    "hJogo": 0,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
-    "pensamentos": [],
-    "livre": "Tenho acordado com muito sono e com mau humor, coisa que nunca acontecia. ",
-    "timestamp": 1784217981355
+    "hJogo": 3.3,
+    "sentidoDurante": "Relaxante ",
+    "sentidoDepois": "Que estou meio que exagerando.",
+    "pensamentos": [
+      "Desânimo",
+      "Instabilidade"
+    ],
+    "livre": "Tenho acordado com muito sono e com mau humor, coisa que nunca acontecia. Muito cansaço, sono. Não consegui nem escrever no meu diário físico.  Fui fazer a unha eu estava exausta, dormindo.\nMal consegui conversar com Gabriel. ",
+    "timestamp": 1784303987165
   },
   {
     "data": "2026-07-15",
