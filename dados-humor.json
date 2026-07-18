@@ -19,17 +19,21 @@
         "mg": "70"
       }
     },
-    "humor": 5,
-    "energia": 5,
+    "humor": 6,
+    "energia": 4,
     "sono": 5,
     "horasSono": 7.3,
-    "hPintura": 0,
-    "hJogo": 0,
-    "sentidoDurante": "",
-    "sentidoDepois": "",
-    "pensamentos": [],
-    "livre": "Acordei atrasada, dormi no ônibus o caminho todo. Estou tão desanimada, vontade de sair andando sem rumo, longe de tudo. Passou algumas coisas ruins na cabeça, mas logo tirei. ",
-    "timestamp": 1784304358354
+    "hPintura": 1.3,
+    "hJogo": 3.3,
+    "sentidoDurante": "Ambos sempre a sensação de prazer, fuga da realidade",
+    "sentidoDepois": "Da pintura foi tranquilo, consegui parar. Mas o jogo ficou aquela sensação de dependência, eu estava caindo de sono mas não queria parar. ",
+    "pensamentos": [
+      "Confusão",
+      "Instabilidade",
+      "Pensamentos difíceis (pesados)"
+    ],
+    "livre": "Acordei atrasada, dormi no ônibus o caminho todo. Estou tão desanimada, vontade de sair andando sem rumo, longe de tudo. Passou algumas coisas ruins na cabeça, mas logo tirei. Durante o dia, me distraía com o serviço, mas logo a sensação de vontade sumir voltava. \nFui começar a ter sono já era quase duas horas da manhã.",
+    "timestamp": 1784374334852
   },
   {
     "data": "2026-07-16",
