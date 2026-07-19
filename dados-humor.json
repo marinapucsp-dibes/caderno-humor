@@ -1,5 +1,40 @@
 [
   {
+    "data": "2026-07-18",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "200"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 4,
+    "energia": 3,
+    "sono": 4,
+    "horasSono": 7.3,
+    "hPintura": 6,
+    "hJogo": 2,
+    "sentidoDurante": "Durante, é o período que eu viajo, me desligo",
+    "sentidoDepois": "Mas hoje, depois da pintura, ficou aquela angústia.Putz só fiz isso, muitas horas e meu dedo com calor e doendo.",
+    "pensamentos": [
+      "Vergonha",
+      "Confusão"
+    ],
+    "livre": "Tem sido dias muito ruins. Não consigo controlar, momentos de profunda angústia. Por ser uma pessoa que vem de uma religião espiritualista, me sinto envergonhada por não conseguir ser forte. As vezes tenho a sensação que eu estou com frescura, preguiça... Resumindo: fui dormir tarde de novo... ",
+    "timestamp": 1784498043433
+  },
+  {
     "data": "2026-07-17",
     "remedios": {
       "lamotrigina": {
