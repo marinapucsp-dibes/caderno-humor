@@ -1,5 +1,39 @@
 [
   {
+    "data": "2026-07-19",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "200"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 3,
+    "energia": 5,
+    "sono": 3,
+    "horasSono": 6,
+    "hPintura": 0,
+    "hJogo": 3,
+    "sentidoDurante": "Me afasto do mundo",
+    "sentidoDepois": "Apática ",
+    "pensamentos": [
+      "Pensamentos difíceis (pesados)"
+    ],
+    "livre": "Bom hoje teve crise de choro...inconformismo de não conseguir ser forte. A tarde fiquei mais neutra, pq fiquei faxinando meu banheiro, quarto e minha área. Exagerei em doce (aliás ontem tbm). E dormi era mais ou menos umas 16:00 e acordei 18:30, com aquele peso, pq detesto dormi durante o dia.",
+    "timestamp": 1784498332400
+  },
+  {
     "data": "2026-07-18",
     "remedios": {
       "lamotrigina": {
