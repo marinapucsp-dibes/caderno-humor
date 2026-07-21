@@ -1,5 +1,39 @@
 [
   {
+    "data": "2026-07-20",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "200"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 6,
+    "energia": 6,
+    "sono": 5,
+    "horasSono": 7,
+    "hPintura": 0,
+    "hJogo": 2.3,
+    "sentidoDurante": "Distraída ",
+    "sentidoDepois": "Quando o jogo é no transporte, não me sinto mal. Porém quando é antes de dormir, como hoje eu me arrependo e fico brava comigo",
+    "pensamentos": [
+      "Neutro"
+    ],
+    "livre": "Hoje não tive aquela sensação horrível de desespero, dor, tristeza. Fiquei mais neutra, poderia definir como um pouco apática. \nMas o cansaço permanece demais, parece que eu carreguei cimento e enci uma laje. Fui dormir 22:30.",
+    "timestamp": 1784632339209
+  },
+  {
     "data": "2026-07-19",
     "remedios": {
       "lamotrigina": {
