@@ -1,5 +1,39 @@
 [
   {
+    "data": "2026-07-21",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "200"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 7,
+    "energia": 5,
+    "sono": 5,
+    "horasSono": 7,
+    "hPintura": 0.3,
+    "hJogo": 3,
+    "sentidoDurante": "Como se me desligasse do mundo",
+    "sentidoDepois": "Sem reações negativas ",
+    "pensamentos": [
+      "Neutro"
+    ],
+    "livre": "Hoje foi um dia que me senti melhor, até um pouco apática. Sem extremos. A única coisa é a sensação de cansaço que não passa. ",
+    "timestamp": 1784716447721
+  },
+  {
     "data": "2026-07-20",
     "remedios": {
       "lamotrigina": {
