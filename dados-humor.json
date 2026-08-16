@@ -1,5 +1,46 @@
 [
   {
+    "data": "2026-08-15",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "200"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "112.5"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 8,
+    "energia": 7,
+    "sono": 4,
+    "horasSono": 5.5,
+    "ativPintura": true,
+    "ativJogo": true,
+    "hPintura": 2.5,
+    "hJogo": 3,
+    "atividadeFisica": "nao",
+    "compAlimentar": true,
+    "compAlimentarTxt": "Por causa do sono irregular, alimentação tudo desregulada acabei comendo 2 lanches  caseiros era mais de meia noite. ",
+    "compFinanceira": false,
+    "compFinanceiraTxt": "",
+    "pensamentos": [
+      "Confusão",
+      "Instabilidade"
+    ],
+    "linhaDia": -1,
+    "livre": "Fui dormir já era 4:00 da manhã, acordei umas 2/3 x o sono não foi reparador, acordei mesmo 12:00, já me sentindo mal. Tomei os remédios. Fiquei a tarde toda sentada no sofá com joelho pra cima, fazendo um sistema novo e depois escrevendo sobre momentos da minha vida. \nDepois fui pintar, jogar... Foi um dia totalmente desregulado. Não fiquei totalmente mal, mas tem não fiquei totalmente bem. Depois desse negócio do joelho, me desconcertou, desorganizou minha organização (que já não era boa). ",
+    "timestamp": 1786891207629
+  },
+  {
     "data": "2026-08-14",
     "remedios": {
       "lamotrigina": {
