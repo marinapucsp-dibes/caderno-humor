@@ -1,5 +1,46 @@
 [
   {
+    "data": "2026-08-16",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "200"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "112.5"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 8,
+    "energia": 6,
+    "sono": 4,
+    "horasSono": 10,
+    "ativPintura": false,
+    "ativJogo": true,
+    "hPintura": 0,
+    "hJogo": 3,
+    "atividadeFisica": "nao",
+    "compAlimentar": false,
+    "compAlimentarTxt": "",
+    "compFinanceira": false,
+    "compFinanceiraTxt": "",
+    "pensamentos": [
+      "Culpa",
+      "Cansaço"
+    ],
+    "linhaDia": -1,
+    "livre": "O sono está totalmente desregulado desde quinta feira.Dormi quase 2:00, mas levantei 11:30... Acordei umas 3 vezes. A tarde fui fazer a unha, e tava com muito sono que cochilava na cadeira. Cheguei em ksa e dormi, nem sei quanto tempo. Não sei pq não tô conseguindo controlar novamente meus hábitos. Que desespero ",
+    "timestamp": 1786975717900
+  },
+  {
     "data": "2026-08-15",
     "remedios": {
       "lamotrigina": {
