@@ -3,29 +3,29 @@
     "data": "2026-08-17",
     "remedios": {
       "lamotrigina": {
-        "tomou": false,
+        "tomou": true,
         "mg": "200"
       },
       "venlafaxina": {
-        "tomou": false,
+        "tomou": true,
         "mg": "112.5"
       },
       "bupropiona": {
-        "tomou": false,
+        "tomou": true,
         "mg": "150"
       },
       "lisdexanfetamina": {
-        "tomou": false,
+        "tomou": true,
         "mg": "70"
       }
     },
-    "humor": 5,
-    "energia": 5,
-    "sono": 9,
+    "humor": 4,
+    "energia": 4,
+    "sono": 8,
     "horasSono": 8.3,
-    "ativPintura": false,
-    "ativJogo": false,
-    "hPintura": 0,
+    "ativPintura": true,
+    "ativJogo": true,
+    "hPintura": 3,
     "hJogo": 3,
     "atividadeFisica": "nao",
     "compAlimentar": false,
@@ -34,11 +34,13 @@
     "compFinanceiraTxt": "",
     "pensamentos": [
       "Culpa",
+      "Desânimo",
+      "Pensamentos difíceis (pesados)",
       "Cansaço"
     ],
-    "linhaDia": 0,
-    "livre": "Fui dormir novamente 1:50, acordei às 10:20, pq me acordaram. Confesso que estou com sono e que se encostar eu durmo. ",
-    "timestamp": 1786975922770
+    "linhaDia": -2,
+    "livre": "Fui dormir novamente 1:50, acordei às 10:20, pq me acordaram. Confesso que estou com sono e que se encostar eu durmo. Tive picos de desânimo e desespero, pensamentos ruins, mas tava com Gabriel o que amenizou. \nA tarde dormi mais umas 2:00. Enfim, tô na luta pra conseguir voltar...",
+    "timestamp": 1787081527093
   },
   {
     "data": "2026-08-16",
