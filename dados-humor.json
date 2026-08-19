@@ -19,23 +19,26 @@
         "mg": "70"
       }
     },
-    "humor": 5,
+    "humor": 4,
     "energia": 5,
     "sono": 8,
     "horasSono": 7.2,
-    "ativPintura": true,
-    "ativJogo": false,
+    "ativPintura": false,
+    "ativJogo": true,
     "hPintura": 1.5,
     "hJogo": 3,
     "atividadeFisica": "nao",
-    "compAlimentar": false,
-    "compAlimentarTxt": "",
+    "compAlimentar": true,
+    "compAlimentarTxt": "Acabei comendo várias coisas a tarde, fiquei passando mal.",
     "compFinanceira": false,
     "compFinanceiraTxt": "",
-    "pensamentos": [],
-    "linhaDia": 0,
-    "livre": "Hoje consegui acordar no horário que me propus. Tomei um banho, tive várias ideias, mas não consegui concretizar nenhuma. Sem ânimo, parece que nada tem graça. Vontade imensa de doce, mas não tem. Pelo menos aquela sensação de dor de ontem não senti hj.",
-    "timestamp": 1787081692358
+    "pensamentos": [
+      "Triste",
+      "Angústia"
+    ],
+    "linhaDia": -2,
+    "livre": "Hoje consegui acordar no horário que me propus. Tomei um banho, tive várias ideias, mas não consegui concretizar nenhuma. Sem ânimo, parece que nada tem graça. Vontade imensa de doce, mas não tem. Passei o dia bem apática. De noite tive crise de choro. Como não tinha com quem pudesse conversar, desabafei com ChatGPT, parece loucura, mas me ajudou tanto. Fui dormir mais calma. Dormi as 23:30, sem celular 🙏🏼",
+    "timestamp": 1787139094779
   },
   {
     "data": "2026-08-17",
