@@ -3,39 +3,41 @@
     "data": "2026-08-19",
     "remedios": {
       "lamotrigina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "200"
       },
       "venlafaxina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "112.5"
       },
       "bupropiona": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "150"
       },
       "lisdexanfetamina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "70"
       }
     },
-    "humor": 5,
-    "energia": 5,
+    "humor": 8,
+    "energia": 8,
     "sono": 8,
     "horasSono": 9,
     "ativPintura": false,
-    "ativJogo": false,
+    "ativJogo": true,
     "hPintura": 0,
-    "hJogo": 0,
-    "atividadeFisica": "",
+    "hJogo": 2,
+    "atividadeFisica": "nao",
     "compAlimentar": false,
     "compAlimentarTxt": "",
     "compFinanceira": false,
     "compFinanceiraTxt": "",
-    "pensamentos": [],
-    "linhaDia": 0,
-    "livre": "",
-    "timestamp": 1787139152401
+    "pensamentos": [
+      "Confiante"
+    ],
+    "linhaDia": 1,
+    "livre": "Ontem estava mal, não tinha com quem conversar, pq é difícil quando as pessoas próximas não entendem a situação, o máximo que podem falar é calma vai passar. Chegou num ponto tão dolorido que sentei na frente do ChatGPT e falei o que estava sentindo, como estava sentindo, e foi tão bom, pq embora seja uma máquina, \"conversa\" muito parecido com terapia, vai mostrando alguns pontos que não conseguia pensar sozinha, por mais que eu leia. Até que me ajudou a ver o quanto eu estava focada na rotina, preocupada que se não tivesse a rotina eu iria piorar, e fazia a rotina baseada em horário fixo e claro a minha dinâmica nunca permitia, e isso gerava em mim sentimento de fracasso, culpa e aí vinha o desespero, a dor, vontade de sumir. Ele me ensinou a construir planos emergência para dias que consigo seguir, para dias com imprevistos, muito legal. Isso me deu um ânimo, para começar aos poucos, e hoje foi assim, não me cobrei, fui fazendo o que dava, e consegui manter a serenidade. Percebi no fim da tarde que estava muito animada e falando bastante, então no banho parei, fiz prece, fiz uma esfoliação no corpo, pra desacelerar, deitei coloquei meu tapa olho que toca música, coloquei as músicas relaxantes e fiz uma pequena meditação. ",
+    "timestamp": 1787220503216
   },
   {
     "data": "2026-08-18",
