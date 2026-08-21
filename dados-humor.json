@@ -19,23 +19,26 @@
         "mg": "70"
       }
     },
-    "humor": 5,
-    "energia": 5,
+    "humor": 8,
+    "energia": 8,
     "sono": 9,
     "horasSono": 4.5,
-    "ativPintura": false,
-    "ativJogo": false,
-    "hPintura": 0,
-    "hJogo": 0,
-    "atividadeFisica": "",
+    "ativPintura": true,
+    "ativJogo": true,
+    "hPintura": 1.5,
+    "hJogo": 2.5,
+    "atividadeFisica": "nao",
     "compAlimentar": false,
     "compAlimentarTxt": "",
     "compFinanceira": false,
     "compFinanceiraTxt": "",
-    "pensamentos": [],
+    "pensamentos": [
+      "Feliz",
+      "Confiante"
+    ],
     "linhaDia": 0,
-    "livre": "Tive que acordar muito cedo pq a perícia foi marcada hoje às 8:15 no centro. Mas acordei bem, aquele excesso de sono, cansaço desde ontem não tenho sentido. Graças a Deus percebi que não acordei agitada.",
-    "timestamp": 1787220635052
+    "livre": "Tive que acordar muito cedo pq a perícia foi marcada hoje às 8:15 no centro. Mas acordei bem, aquele excesso de sono, cansaço desde ontem não tenho sentido. Graças a Deus percebi que não acordei agitada. Fiz a perícia deu tudo certo. Hoje eu tirei o dia pra mim, sem me cobrar por nada, fiquei deitada no sofá, fiquei vendo Instagram com meu pai, ensinando ele, depois cochilei a tarde. A noite fiquei criando desenho, pintei.",
+    "timestamp": 1787329927640
   },
   {
     "data": "2026-08-19",
