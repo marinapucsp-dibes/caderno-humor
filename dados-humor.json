@@ -1,5 +1,46 @@
 [
   {
+    "data": "2026-08-23",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "200"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "112.5"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 9,
+    "energia": 9,
+    "sono": 9,
+    "horasSono": 7,
+    "ativPintura": false,
+    "ativJogo": false,
+    "hPintura": 0,
+    "hJogo": 0,
+    "atividadeFisica": "sim",
+    "compAlimentar": false,
+    "compAlimentarTxt": "",
+    "compFinanceira": false,
+    "compFinanceiraTxt": "",
+    "pensamentos": [
+      "Confiante",
+      "Euforia"
+    ],
+    "linhaDia": 1,
+    "livre": "Acordei 8:00, bem e disposta. Tomei banho, tomei café, fui andar no Pq do Carmo levar o Chico pra passear, diz uma caminhada com a Larissa. Almocei. A tarde fui ler, depois mexer no computador. Percebi que a libido deu uma melhoradinha, acho que é a diminuição da dose. ",
+    "timestamp": 1787518333900
+  },
+  {
     "data": "2026-08-22",
     "remedios": {
       "lamotrigina": {
