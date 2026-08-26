@@ -1,5 +1,45 @@
 [
   {
+    "data": "2026-08-25",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "200"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "112.5"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 6,
+    "energia": 5,
+    "sono": 3,
+    "horasSono": 9,
+    "ativPintura": false,
+    "ativJogo": true,
+    "hPintura": 0,
+    "hJogo": 1.3,
+    "atividadeFisica": "nao",
+    "compAlimentar": false,
+    "compAlimentarTxt": "",
+    "compFinanceira": false,
+    "compFinanceiraTxt": "",
+    "pensamentos": [
+      "Instabilidade"
+    ],
+    "linhaDia": 1,
+    "livre": "Hoje foi um dia meio estranho. Fui dormir 00:00, quando foi 3:40 acordei com dor na perna, subindo pra coluna (acho q do impacto de ontem), não conseguia voltar a dormir, mas quando foi por volta das 6:00 e só acordei às 10:00. Já acordei meio de mau humor, pq detesto acordar muito tarde. Somado ao frio (que já deixa a gente meio melancólico), a dor que não passou,  não consegui limpar nenhum cômodo como tinha me programado. A tarde fui no PA tomei injeção (deu uma melhorada, mas não passou totalmente).\nO que achei estranho é que a tarde, eu resolvi pesquisar umas leis sobre atribuições de funções, pq não queria ficar só jogando o pintando e estava querendo fazer algo, comecei a produzir um documento (relacionado ao trabalho) e fiquei o resto da tarde toda até às 22:30. Estava muito empolgada. É que a linha acima não dá pra inserir curva, pq eu diria que começou com -1 depressão, depois - euforia. \nO único prejuízo foi o impacto no sono de novo. ",
+    "timestamp": 1787738418555
+  },
+  {
     "data": "2026-08-24",
     "remedios": {
       "lamotrigina": {
