@@ -19,23 +19,26 @@
         "mg": "70"
       }
     },
-    "humor": 5,
-    "energia": 5,
-    "sono": 9,
+    "humor": 9,
+    "energia": 9,
+    "sono": 10,
     "horasSono": 8,
-    "ativPintura": false,
-    "ativJogo": false,
-    "hPintura": 0,
-    "hJogo": 0,
-    "atividadeFisica": "",
+    "ativPintura": true,
+    "ativJogo": true,
+    "hPintura": 2,
+    "hJogo": 1.5,
+    "atividadeFisica": "nao",
     "compAlimentar": false,
     "compAlimentarTxt": "",
     "compFinanceira": false,
     "compFinanceiraTxt": "",
-    "pensamentos": [],
-    "linhaDia": 0,
-    "livre": "",
-    "timestamp": 1787592859182
+    "pensamentos": [
+      "Feliz",
+      "Euforia"
+    ],
+    "linhaDia": 1,
+    "livre": "Foi um dia bom, embora não tenha feito uma atividade física do tipo exercício, me movimentei bastante, fiz bastante coisa. A tarde eu sofri um impacto empurrando carrinho num degrau e acabei sentindo a perna, mas nada que desetabiizasse.\nO problema tem sido conseguir dormir cedo.",
+    "timestamp": 1787737639696
   },
   {
     "data": "2026-08-23",
