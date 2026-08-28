@@ -3,39 +3,39 @@
     "data": "2026-08-26",
     "remedios": {
       "lamotrigina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "200"
       },
       "venlafaxina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "112.5"
       },
       "bupropiona": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "150"
       },
       "lisdexanfetamina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "70"
       }
     },
-    "humor": 5,
-    "energia": 5,
+    "humor": 8,
+    "energia": 8,
     "sono": 6,
     "horasSono": 4.3,
     "ativPintura": false,
-    "ativJogo": false,
+    "ativJogo": true,
     "hPintura": 0,
-    "hJogo": 0,
-    "atividadeFisica": "",
+    "hJogo": 1.5,
+    "atividadeFisica": "nao",
     "compAlimentar": false,
     "compAlimentarTxt": "",
     "compFinanceira": false,
     "compFinanceiraTxt": "",
     "pensamentos": [],
     "linhaDia": 0,
-    "livre": "",
-    "timestamp": 1787738486850
+    "livre": "Hoje meu sentimento é Tranquila. Fiquei bem, embora não tenha dormido muito bem. Comecei a fazer uma autobiografia, pra mim mesmo, poder entender algumas coisas.Tomei o fernegam e capotei.",
+    "timestamp": 1787882221968
   },
   {
     "data": "2026-08-25",
