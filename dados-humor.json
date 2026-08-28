@@ -19,23 +19,26 @@
         "mg": "70"
       }
     },
-    "humor": 5,
+    "humor": 6,
     "energia": 5,
     "sono": 4,
     "horasSono": 8,
-    "ativPintura": false,
-    "ativJogo": false,
-    "hPintura": 0,
-    "hJogo": 0,
-    "atividadeFisica": "",
-    "compAlimentar": false,
-    "compAlimentarTxt": "",
+    "ativPintura": true,
+    "ativJogo": true,
+    "hPintura": 2,
+    "hJogo": 1.3,
+    "atividadeFisica": "nao",
+    "compAlimentar": true,
+    "compAlimentarTxt": "No fim da tarde acabei misturando um monte de coisa no prato, como que nem senti, depois tomei muito sorvete, estou passando mal. ",
     "compFinanceira": false,
     "compFinanceiraTxt": "",
-    "pensamentos": [],
-    "linhaDia": 0,
-    "livre": "Ontem não tomei o remédio, dormi cedo, mas acordei 5 vezes, profundamente dormi muito pouco. Acordei cansada.",
-    "timestamp": 1787927816426
+    "pensamentos": [
+      "Vergonha",
+      "Angústia"
+    ],
+    "linhaDia": -2,
+    "livre": "Ontem não tomei o remédio, dormi cedo, mas acordei 5 vezes, profundamente dormi muito pouco. Acordei cansada. Fiz comida, juro que estou tentando não desanimar, mas é tão difícil quando as consequências de um estado atípico ficam te lembrando o tempo todo. As vezes tenho a sensação que o problema sou eu, já estou com vergonha. Pq é um tal tô bem, tô mal, tô bem tô mal... Parece que eu que não me esforço. ",
+    "timestamp": 1787959385748
   },
   {
     "data": "2026-08-27",
