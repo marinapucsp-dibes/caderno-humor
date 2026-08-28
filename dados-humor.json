@@ -1,5 +1,46 @@
 [
   {
+    "data": "2026-08-27",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "200"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "112.5"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 7,
+    "energia": 5,
+    "sono": 10,
+    "horasSono": 10,
+    "ativPintura": false,
+    "ativJogo": true,
+    "hPintura": 0,
+    "hJogo": 1.3,
+    "atividadeFisica": "sim",
+    "compAlimentar": true,
+    "compAlimentarTxt": "A noite comi pão com queijo, depois pão com frango e onions, tudo meio desesperada, já tinha comido um pote de doce, tomei mais 500 ml de sorvete, parecia que tava desesperada.",
+    "compFinanceira": false,
+    "compFinanceiraTxt": "",
+    "pensamentos": [
+      "Ansiedade",
+      "Confusão"
+    ],
+    "linhaDia": -1,
+    "livre": "Dormi bem, mas como tomei meio tarde o remédio, acordei tarde. O fernegam me apaga de vdd, parece sedativo de endoscopia. Hoje passei o dia meio estranha, com pensamentos confusos, energia baixa. Não sei se são as preocupações financeiras pq já tá chegando o dia do pagamento, as questões com o trabalho do Gabriel. Sei que hoje foi meio estranho.",
+    "timestamp": 1787882639591
+  },
+  {
     "data": "2026-08-26",
     "remedios": {
       "lamotrigina": {
