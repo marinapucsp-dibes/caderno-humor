@@ -3,39 +3,42 @@
     "data": "2026-08-29",
     "remedios": {
       "lamotrigina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "200"
       },
       "venlafaxina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "112.5"
       },
       "bupropiona": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "150"
       },
       "lisdexanfetamina": {
-        "tomou": false,
-        "mg": ""
+        "tomou": true,
+        "mg": "70"
       }
     },
-    "humor": 5,
-    "energia": 5,
+    "humor": 6,
+    "energia": 6,
     "sono": 8,
     "horasSono": 9.55,
     "ativPintura": false,
-    "ativJogo": false,
+    "ativJogo": true,
     "hPintura": 0,
-    "hJogo": 0,
-    "atividadeFisica": "",
-    "compAlimentar": false,
-    "compAlimentarTxt": "",
+    "hJogo": 2,
+    "atividadeFisica": "nao",
+    "compAlimentar": true,
+    "compAlimentarTxt": "Novamente comi muito rápido depois doce. ",
     "compFinanceira": false,
     "compFinanceiraTxt": "",
-    "pensamentos": [],
-    "linhaDia": 0,
-    "livre": "",
-    "timestamp": 1788010438506
+    "pensamentos": [
+      "Vergonha",
+      "Confusão"
+    ],
+    "linhaDia": -1,
+    "livre": "Hoje foi um dia que tive que ficar brigando comigo, pra nao deixar que a tristeza e a angústia me dominasse. Acho que o fato de tá de férias e não poder ir pra lugar nenhum, tá ajudando a não evoluir. ",
+    "timestamp": 1788106419950
   },
   {
     "data": "2026-08-28",
