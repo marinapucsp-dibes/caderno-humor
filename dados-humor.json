@@ -19,23 +19,25 @@
         "mg": "70"
       }
     },
-    "humor": 5,
-    "energia": 5,
+    "humor": 8,
+    "energia": 8,
     "sono": 8,
     "horasSono": 4,
     "ativPintura": false,
-    "ativJogo": false,
+    "ativJogo": true,
     "hPintura": 0,
-    "hJogo": 0,
-    "atividadeFisica": "",
-    "compAlimentar": false,
-    "compAlimentarTxt": "",
+    "hJogo": 4,
+    "atividadeFisica": "nao",
+    "compAlimentar": true,
+    "compAlimentarTxt": "Doce, sempre no final da noite. Pedi pro Gabriel, me vigiar e proibir, mesmo que eu fique brava, com raiva... Depois passa",
     "compFinanceira": false,
     "compFinanceiraTxt": "",
-    "pensamentos": [],
+    "pensamentos": [
+      "Confiante"
+    ],
     "linhaDia": 0,
-    "livre": "",
-    "timestamp": 1788106477527
+    "livre": "Hoje acordei melhor, com menos pensamento ruins ou desânimo. Fui em Cotia com Gabriel pra ele fazer o concurso, depois fui passear no shopping com a Larissa e nem reclamei e o mais legal, me controlei totalmente, não gastei nada, mesmo com cartão disponível do meu pai. Tô orgulhosa de mim, não tô gastando nada, pra conseguir chegar até o final do ano, pelo menos consegui do pagar todas as contas básicas que hoje não consigo. ",
+    "timestamp": 1788184176408
   },
   {
     "data": "2026-08-29",
