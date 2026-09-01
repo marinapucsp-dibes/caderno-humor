@@ -27,15 +27,15 @@
     "ativJogo": false,
     "hPintura": 0,
     "hJogo": 0,
-    "atividadeFisica": "",
+    "atividadeFisica": "sim",
     "compAlimentar": false,
     "compAlimentarTxt": "",
     "compFinanceira": false,
     "compFinanceiraTxt": "",
     "pensamentos": [],
     "linhaDia": 0,
-    "livre": "",
-    "timestamp": 1788276821480
+    "livre": "Que noite péssima, dormi com aquele aparelho é péssimo. ",
+    "timestamp": 1788276912542
   },
   {
     "data": "2026-08-31",
