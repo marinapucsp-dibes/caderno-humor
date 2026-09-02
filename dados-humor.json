@@ -24,18 +24,20 @@
     "sono": 4,
     "horasSono": 7,
     "ativPintura": false,
-    "ativJogo": false,
+    "ativJogo": true,
     "hPintura": 0,
-    "hJogo": 0,
-    "atividadeFisica": "sim",
+    "hJogo": 4,
+    "atividadeFisica": "nao",
     "compAlimentar": false,
     "compAlimentarTxt": "",
     "compFinanceira": false,
     "compFinanceiraTxt": "",
-    "pensamentos": [],
+    "pensamentos": [
+      "Angústia"
+    ],
     "linhaDia": 0,
-    "livre": "Que noite péssima, dormi com aquele aparelho é péssimo. ",
-    "timestamp": 1788276912542
+    "livre": "Que noite péssima, dormi com aquele aparelho é péssimo. Fiquei angustiada por causa do Chico, ele tava apático, triste, não ta brincando, levei no Vet, mas tem que esperar exame pra ver se é algo físico ou só emocional. De cortar o coracao",
+    "timestamp": 1788327595789
   },
   {
     "data": "2026-08-31",
