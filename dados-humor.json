@@ -1,5 +1,45 @@
 [
   {
+    "data": "2026-09-02",
+    "remedios": {
+      "lamotrigina": {
+        "tomou": true,
+        "mg": "200"
+      },
+      "venlafaxina": {
+        "tomou": true,
+        "mg": "112.5"
+      },
+      "bupropiona": {
+        "tomou": true,
+        "mg": "150"
+      },
+      "lisdexanfetamina": {
+        "tomou": true,
+        "mg": "70"
+      }
+    },
+    "humor": 7,
+    "energia": 7,
+    "sono": 6,
+    "horasSono": 8,
+    "ativPintura": false,
+    "ativJogo": true,
+    "hPintura": 0,
+    "hJogo": 1.3,
+    "atividadeFisica": "sim",
+    "compAlimentar": false,
+    "compAlimentarTxt": "",
+    "compFinanceira": false,
+    "compFinanceiraTxt": "",
+    "pensamentos": [
+      "Confiante"
+    ],
+    "linhaDia": 0,
+    "livre": "Dormi muito tarde, mas culpa minha mesmo, fiquei empolgada programando app pq aprendi e fui dormir 3:00. Acordei 11:00, fiquei até umas 14:00 sentindo mal, é sempre assim quando acordo depois das 8:00.\nDepois foi tranquilo. Marquei exercício mas não foi bem exercício foi uma caminhada light com o Chico. A única coisa é controlar doce ",
+    "timestamp": 1788430816077
+  },
+  {
     "data": "2026-09-01",
     "remedios": {
       "lamotrigina": {
